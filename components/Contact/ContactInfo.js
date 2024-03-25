@@ -16,8 +16,9 @@ const ContactInfo = () => {
                 <div className="icon">
                   <i className="ri-map-pin-line"></i>
                 </div>
-                <h3>Address</h3>
-                <p>Manual 3B, Jason Block, New Jersey, Australia</p>
+                <h3>India Office and Development Center:</h3>
+                <p> Block # 304 & 305, Bhanu Arcade, Opp. Hi-Tech theater, Madhapur, Hyderabad-500081, Telangana, India.</p>
+                <p>info@mavininfotech.com</p>
               </div>
             </div>
 

@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Teza - React Nextjs Creative Agency Template</title>
+        <title>Mavin Infotech - Software Development Company | Web Application Development | Sage X3 Implementation, Customizations &amp; Support</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 

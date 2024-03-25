@@ -6,7 +6,7 @@ const MainBanner = () => {
     <>
       <div
         className="main-hero-area"
-        style={{ backgroundImage: `url("/images/main-hero/main-hero-bg.jpg")` }}
+        style={{ backgroundImage: `url("/images/html-system-website-concept.jpg")` }}
       >
         <div className="container-fluid">
           <div className="main-hero-content">
@@ -16,7 +16,7 @@ const MainBanner = () => {
               data-aos-duration="500"
               data-aos-once="true"
             >
-              Creative Digital Agency
+             Software Development Company
             </span>
             <h1
               data-aos="fade-right"
@@ -24,7 +24,7 @@ const MainBanner = () => {
               data-aos-duration="700"
               data-aos-once="true"
             >
-              Creative Idea & Brand Solutions
+              Global Knowledge. Local Support.
             </h1>
             <p
               data-aos="fade-right"
@@ -32,9 +32,8 @@ const MainBanner = () => {
               data-aos-duration="800"
               data-aos-once="true"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim
-              ad minim veniam.
+              We bring global best practices and resources to customers across industry verticals around the world.
+
             </p>
 
             <ul
@@ -46,7 +45,7 @@ const MainBanner = () => {
             >
               <li>
                 <Link href="/contact">
-                  <a className="default-btn">Get A Quote</a>
+                  <a className="default-btn">Contact Us</a>
                 </Link>
               </li>
               <li>

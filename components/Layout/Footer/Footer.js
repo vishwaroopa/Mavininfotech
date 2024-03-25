@@ -13,18 +13,17 @@ const Footer = () => {
                 <div className="widget-logo">
                   <Link href="/">
                     <a>
-                      <img src="/images/logo-2.png" alt="Teza" />
+                      <img src="/images/logo.png" alt="Mavin Info Tech" />
                     </a>
                   </Link>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisng elit ultricies
-                  lobortis odio eget gravida egestas at cursus at ipsum.
+                  Mavin InfoTech was setup to leverage the "Proven India Advantage" in delivering low cost IT software services with a guarantee of Quality with Speed.
                 </p>
                 <ul className="widget-social">
                   <li>
                     <a
-                      href="https://www.facebook.com/EnvyTheme"
+                      href="https://www.facebook.com/pages/Mavin-Infotech/135556656509121"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -33,7 +32,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="https://twitter.com/?lang=en"
+                      href="https://www.facebook.com/pages/Mavin-Infotech/135556656509121"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -42,16 +41,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="https://www.instagram.com/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="ri-instagram-line"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/signup"
+                      href="http://in.linkedin.com/in/mavininfotech"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -137,19 +127,19 @@ const Footer = () => {
                 <ul className="footer-information">
                   <li>
                     <i className="ri-map-pin-line"></i>
-                    Manual 3B, Jason Block, New Jersey, Australia
+                    Block # 304 & 305, Bhanu Arcade, Opp. Hi-Tech theater, Madhapur, Hyderabad-500081, Telangana, India.
                   </li>
                   <li>
                     <i className="ri-phone-fill"></i>
-                    <a href="tel:91298765436543">+912 9876 5436 543</a>
+                    <a href="tel:91-9963-197111">+91-9963-197111</a>
                   </li>
                   <li>
                     <i className="ri-mail-line"></i>
-                    <a href="mailto:hello@teza.com">hello@teza.com</a>
+                    <a href="mailto:info@mavininfotech.com">info@mavininfotech.com</a>
                   </li>
                   <li>
                     <i className="ri-mail-line"></i>
-                    <a href="mailto:contact@teza.com">contact@teza.com</a>
+                    <a href="mailto:augustine@mavininfotech.com">augustine@mavininfotech.com</a>
                   </li>
                 </ul>
               </div>
@@ -160,14 +150,11 @@ const Footer = () => {
           <div className="container">
             <div className="copyright-area-content">
               <p>
-                Copyright {currentYear} Teza All Rights Reserved by {' '}
-                <a
-                  href="https://envytheme.com/"
+                Copyright 2003 - {currentYear}  <a
+                  href="https://mavininfotech.com/"
                   target="_blank"
                   rel="noreferrer"
-                >
-                  EnvyTheme
-                </a>
+                >Mavin Infotech</a> - D-U-N-S # 828400320 {' '}
               </p>
             </div>
           </div>

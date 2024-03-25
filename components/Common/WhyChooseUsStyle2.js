@@ -17,9 +17,7 @@ const WhyChooseUsStyle2 = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-12">
               <div className="why-choose-us-video-view">
-                <div className="video-btn" onClick={() => setToggler(!toggler)}>
-                  <i className="flaticon-play-button"></i>
-                </div>
+                
               </div>
             </div>
 
@@ -31,35 +29,34 @@ const WhyChooseUsStyle2 = () => {
                 data-aos-duration="500"
                 data-aos-once="true"
               >
-                <span>Why Choose Us</span>
-                <h3>Our Working Process To Help Your Boost Your Business</h3>
+                <span>What we do</span>
+                <h3>We provide world-class technology services</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit et
-                  fames maecenas amet est scelerisque lectus tortor sit lorem
-                  ipsum dolor sit amet consectetur adipiscing elit et fames
-                  maecenas amet.
+                  Mavin Infotech delivers high quality, reliable and cost-effective IT services to customers globally. We provide world-class technology services by constantly exploring and implementing innovative solutions that drive long-term value to our customers.
                 </p>
 
-                <div className="choose-us-inner-box">
-                  <div className="icon">
-                    <i className="flaticon-ad-campaign"></i>
-                  </div>
-                  <h4>Advertising & Branding</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit velit
-                    sagittis eu viverra pellentesque condimentum.
-                  </p>
+                <div className="choose-us-inner-box1"><br/>
+                    <ul className="features-list">
+                  <li>
+                   
+                  <h5> <i className="ri-check-line"></i> Custom Software Development</h5></li>
+<li>
+                    <h5><i className="ri-check-line"></i> IT Consulting /Staffing</h5></li>
+<li>
+                    <h5><i className="ri-check-line"></i> Web Design & Development</h5></li>
+<li>
+                    <h5><i className="ri-check-line"></i> Document Management Solutions</h5></li>
+<li>
+                    <h5><i className="ri-check-line"></i> E-Learning Solutions</h5></li>
+<li>
+                    <h5><i className="ri-check-line"></i> IT Infrastructure Management</h5></li>
+<li>
+                   <h5> <i className="ri-check-line"></i> Warehouse Management & ERP Solutions</h5></li></ul>
                 </div>
 
                 <div className="choose-us-inner-box">
-                  <div className="icon">
-                    <i className="flaticon-public-relations"></i>
-                  </div>
-                  <h4>Public Relation</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit velit
-                    sagittis eu viverra pellentesque condimentum.
-                  </p>
+              
+                  
                 </div>
               </div>
             </div>

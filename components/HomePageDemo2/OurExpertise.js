@@ -14,15 +14,12 @@ const OurExpertise = () => {
                 data-aos-duration="500"
                 data-aos-once="true"
               >
-                <span>Our Expertise</span>
+                <span>What we provide?</span>
                 <h3>
-                  Boost Business With Creative Idea & Brand Solutions With Us
+                  IT Staffing & Consulting
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit et
-                  fames maecenas amet est scelerisque lectus tortor sit lorem
-                  ipsum dolor sit amet consectetur adipiscing elit et fames
-                  maecenas amet est scelerisque lectus tortor sit.
+                  At Mavininfotech, we specialize in providing comprehensive IT staffing and consulting solutions tailored to meet the evolving needs of businesses in the digital age. With a team of seasoned professionals and a deep understanding of the IT landscape, we offer unparalleled expertise to support your organization's growth and success.
                 </p>
 
                 <div className="row justify-content-center">
@@ -31,11 +28,9 @@ const OurExpertise = () => {
                       <div className="icon">
                         <i className="ri-stack-line"></i>
                       </div>
-                      <h4>Boost Your Sale</h4>
+                      <h4>Cost Optimization</h4>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit
-                        in pretium blandit urna.
-                      </p>
+Our experts analyze your IT spending and identify opportunities for cost reduction and efficiency improvement.                      </p>
                     </div>
                   </div>
 
@@ -44,10 +39,9 @@ const OurExpertise = () => {
                       <div className="icon">
                         <i className="ri-focus-2-line"></i>
                       </div>
-                      <h4>Idea & Analysis</h4>
+                      <h4>Technical Assessments</h4>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit
-                        in pretium blandit urna.
+                        We conduct thorough technical assessments to evaluate candidates' skills and proficiency.
                       </p>
                     </div>
                   </div>

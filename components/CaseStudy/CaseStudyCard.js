@@ -8,7 +8,8 @@ const CaseStudyCard = () => {
         <div className="container">
           <div className="section-title">
             <span>Case Study</span>
-            <h2>Grow And Experience Endless Possibilites To Your Business</h2>
+            <h2>At Mavininfotech, we are constantly engaged in diverse projects aimed at enhancing IT capabilities and driving innovation for our clients. Here are some of our ongoing initiatives:
+</h2>
           </div>
 
           <div className="row justify-content-center">

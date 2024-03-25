@@ -52,8 +52,8 @@ Default CSS
 =================================================*/
 :root {
   --main-font-family: "DM Sans", sans-serif;
-  --main-color: #FF1670;
-  --gradient-color: linear-gradient(90deg, #D21163 0%, #D9230C 100%);
+  --main-color: #1e6ea6;
+  --gradient-color: linear-gradient(90deg, #8eb7d3 40%, #a25742 100%);
   --white-color: #ffffff;
   --black-color: #000000;
   --paragraph-color: #656565;
@@ -496,7 +496,12 @@ Main Banner Area CSS
   left: 10px;
   bottom: 30px;
 }
-
+.features-list {
+    list-style-type: none;
+}
+.features-list h5 {
+  margin-bottom:10px  ;
+}
 /*================================================
 Main Hero Area CSS
 =================================================*/
@@ -504,8 +509,8 @@ Main Hero Area CSS
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 235px;
-  padding-bottom: 150px;
+  padding-top: 215px;
+  padding-bottom: 130px;
   position: relative;
   z-index: 1;
 }
@@ -515,7 +520,7 @@ Main Hero Area CSS
 }
 
 .main-hero-content {
-  max-width: 850px;
+  max-width: 550px;
 }
 .main-hero-content span {
   font-size: var(--font-size);
@@ -528,7 +533,7 @@ Main Hero Area CSS
   border-radius: 30px;
 }
 .main-hero-content h1 {
-  font-size: 90px;
+  font-size: 55px;
   margin-bottom: 10px;
   color: var(--white-color);
 }
@@ -1648,7 +1653,7 @@ Blog Area CSS
   color: var(--main-color);
 }
 .single-blog-card .blog-content h3 {
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 0;
   line-height: 1.5;
 }
@@ -2072,23 +2077,25 @@ Pricing Area CSS
   font-size: 24px;
   margin-bottom: 0;
   position: relative;
+  text-align: center;
 }
 .single-pricing-table .pricing-header h3 i {
   display: inline-block;
-  height: 50px;
-  width: 50px;
-  line-height: 50px;
+  height: 75px;
+  width: 75px;
+  line-height: 75px;
   background: linear-gradient(90deg, #5BCC96 0%, #0CCDD9 100%);
   color: var(--white-color);
   text-align: center;
-  font-size: 20px;
+  font-size: 35px;
   border-radius: 50px;
   margin-right: 5px;
 }
 .single-pricing-table .price {
-  font-size: 50px;
+  font-size: 40px;
   color: var(--main-color);
   font-weight: bold;
+  text-align:center;
   margin-top: 25px;
   margin-bottom: 25px;
   line-height: 1;

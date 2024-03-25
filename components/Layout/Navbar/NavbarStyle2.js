@@ -57,44 +57,20 @@ const NavbarStyle2 = () => {
 
               <div className={classOne} id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto">
-                  <li className="nav-item">
-                    <Link href="#">
-                      <a className="nav-link">
-                        Home <i className="ri-arrow-down-s-line"></i>
-                      </a>
-                    </Link>
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link href="/" activeClassName="active">
-                          <a className="nav-link">Home Demo - 1</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/index-2" activeClassName="active">
-                          <a className="nav-link">Home Demo - 2</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/index-3" activeClassName="active">
-                          <a className="nav-link">Home Demo - 3</a>
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-
+         
                   <li className="nav-item">
                     <a href="#" className="nav-link">
-                      About <i className="ri-arrow-down-s-line"></i>
+                      ABOUT US <i className="ri-arrow-down-s-line"></i>
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link href="/about" activeClassName="active">
-                          <a className="nav-link">About Style - 1</a>
+                          <a className="nav-link">Who Are We?</a>
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link href="/about-2" activeClassName="active">
-                          <a className="nav-link">About Style - 2</a>
+                          <a className="nav-link">What We do?</a>
                         </Link>
                       </li>
                     </ul>
@@ -102,7 +78,7 @@ const NavbarStyle2 = () => {
 
                   <li className="nav-item">
                     <a href="#" className="nav-link">
-                      Services <i className="ri-arrow-down-s-line"></i>
+                      SERVICES <i className="ri-arrow-down-s-line"></i>
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
@@ -121,7 +97,7 @@ const NavbarStyle2 = () => {
                   <li className="nav-item">
                     <Link href="#" activeClassName="active">
                       <a className="nav-link">
-                        Pages <i className="ri-arrow-down-s-line"></i>
+                        TALENT SERVICES <i className="ri-arrow-down-s-line"></i>
                       </a>
                     </Link>
                     <ul className="dropdown-menu">
@@ -197,7 +173,7 @@ const NavbarStyle2 = () => {
 
                   <li className="nav-item">
                     <a href="#" className="nav-link">
-                      Case Study <i className="ri-arrow-down-s-line"></i>
+                      PRODUCTS <i className="ri-arrow-down-s-line"></i>
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
@@ -218,7 +194,7 @@ const NavbarStyle2 = () => {
 
                   <li className="nav-item">
                     <a href="#" className="nav-link">
-                      Blog <i className="ri-arrow-down-s-line"></i>
+                      DIGITAL MARKETING <i className="ri-arrow-down-s-line"></i>
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
@@ -241,28 +217,61 @@ const NavbarStyle2 = () => {
                       </li>
                     </ul>
                   </li>
-
-                  <li className="nav-item">
-                    <Link href="/contact" activeClassName="active">
-                      <a className="nav-link">Contact</a>
-                    </Link>
+   <li className="nav-item">
+                    <a href="#" className="nav-link">
+                      ECOMMERCE <i className="ri-arrow-down-s-line"></i>
+                    </a>
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link href="/blog" activeClassName="active">
+                          <a className="nav-link">Blog Grid</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/blog-right-sidebar"
+                          activeClassName="active"
+                        >
+                          <a className="nav-link">Blog Right Sidebar</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/blog-details" activeClassName="active">
+                          <a className="nav-link">Blog Details</a>
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>   <li className="nav-item">
+                    <a href="#" className="nav-link">
+                      WORK WITH US <i className="ri-arrow-down-s-line"></i>
+                    </a>
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link href="/blog" activeClassName="active">
+                          <a className="nav-link">Blog Grid</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/blog-right-sidebar"
+                          activeClassName="active"
+                        >
+                          <a className="nav-link">Blog Right Sidebar</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/blog-details" activeClassName="active">
+                          <a className="nav-link">Blog Details</a>
+                        </Link>
+                      </li>
+                    </ul>
                   </li>
+                 
                 </ul>
               </div>
 
               <div className="others-options d-flex align-items-center">
-                <div className="option-item">
-                  <form className="search-box">
-                    <input
-                      type="text"
-                      className="input-search"
-                      placeholder="Search..."
-                    />
-                    <button type="submit">
-                      <i className="ri-search-line"></i>
-                    </button>
-                  </form>
-                </div>
+            
  
                 <div className="option-item">
                   <Link href="/contact">

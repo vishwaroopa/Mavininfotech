@@ -12,11 +12,9 @@ const TestimonialStyle2 = () => {
             <div className="col-lg-4 col-md-12">
               <div className="testimonials-box-content">
                 <span>Our Review</span>
-                <h3>Alone We Can Do So Little Together We Can Do So Much</h3>
+                <h3>Top Google Reviews</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit et
-                  fames maecenas amet est scelerisque lectus tortor sit lorem
-                  ipsum dolor.
+                  Insights, Experiences, and Perspectives from Our Valued Customers/Employees
                 </p>
                 <Link href="/testimonials">
                   <a className="default-btn">View More</a>
@@ -48,24 +46,17 @@ const TestimonialStyle2 = () => {
                         <i className="flaticon-straight-quotes"></i>
                       </div>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit
-                        fames fusce venenatis mattis orci neque mi nascetur
-                        tristique vitae tincidunt sit aliquam iaculis placerat
-                        mattis tellus dolor id tincidunt viverra pulvinar
-                        dignissim nunc.
+                        One of the best IT services company we have worked with.  We have worked/outsourced multiple projects to Mavin Infotech and have got the best ROI.  
+
                       </p>
                     </div>
 
                     <div className="info">
                       <div className="d-flex align-items-center justify-content-start">
-                        <img
-                          src="/images/testimonials/testimonials-1.jpg"
-                          className="rounded-circle"
-                          alt="image"
-                        />
+                        
                         <div className="title">
-                          <h3>Thomas Adison</h3>
-                          <span>CEO at ABC LTD</span>
+                          <h3>Mike Cohen</h3>
+                          <span>CLIENT</span>
                         </div>
                       </div>
                     </div>
@@ -79,91 +70,22 @@ const TestimonialStyle2 = () => {
                         <i className="flaticon-straight-quotes"></i>
                       </div>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit
-                        fames fusce venenatis mattis orci neque mi nascetur
-                        tristique vitae tincidunt sit aliquam iaculis placerat
-                        mattis tellus dolor id tincidunt viverra pulvinar
-                        dignissim nunc.
+                        Mavin Infotech was brought in at a critical time, when deadlines and working under strict budget was the need for our survival. And really I'm glad for their dedication.
                       </p>
                     </div>
 
                     <div className="info">
                       <div className="d-flex align-items-center justify-content-start">
-                        <img
-                          src="/images/testimonials/testimonials-2.jpg"
-                          className="rounded-circle"
-                          alt="image"
-                        />
+                     
                         <div className="title">
-                          <h3>Aiven Rishi</h3>
-                          <span>CEO at Nicktos</span>
+                          <h3>Theresa</h3>
+                          <span>Director</span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </SwiperSlide>
 
-                <SwiperSlide>
-                  <div className="single-testimonials-card">
-                    <div className="box-content">
-                      <div className="icon">
-                        <i className="flaticon-straight-quotes"></i>
-                      </div>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit
-                        fames fusce venenatis mattis orci neque mi nascetur
-                        tristique vitae tincidunt sit aliquam iaculis placerat
-                        mattis tellus dolor id tincidunt viverra pulvinar
-                        dignissim nunc.
-                      </p>
-                    </div>
-
-                    <div className="info">
-                      <div className="d-flex align-items-center justify-content-start">
-                        <img
-                          src="/images/testimonials/testimonials-3.jpg"
-                          className="rounded-circle"
-                          alt="image"
-                        />
-                        <div className="title">
-                          <h3>Aiven Rishi</h3>
-                          <span>CEO at ET</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-
-                <SwiperSlide>
-                  <div className="single-testimonials-card">
-                    <div className="box-content">
-                      <div className="icon">
-                        <i className="flaticon-straight-quotes"></i>
-                      </div>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit
-                        fames fusce venenatis mattis orci neque mi nascetur
-                        tristique vitae tincidunt sit aliquam iaculis placerat
-                        mattis tellus dolor id tincidunt viverra pulvinar
-                        dignissim nunc.
-                      </p>
-                    </div>
-
-                    <div className="info">
-                      <div className="d-flex align-items-center justify-content-start">
-                        <img
-                          src="/images/testimonials/testimonials-4.jpg"
-                          className="rounded-circle"
-                          alt="image"
-                        />
-                        <div className="title">
-                          <h3>Thomas Adison</h3>
-                          <span>React Developer</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
               </Swiper>
             </div>
           </div>

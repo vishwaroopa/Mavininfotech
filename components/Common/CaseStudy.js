@@ -9,9 +9,9 @@ const CaseStudy = () => {
           <div className="section-title-wrap">
             <div className="row align-items-center">
               <div className="col-lg-7 col-md-12">
-                <span>Case Study</span>
+                <span>Current Projects</span>
                 <h2>
-                  Grow And Experience Endless Possibilites To Your Business
+                  Discover Our Ongoing Endeavors
                 </h2>
               </div>
               <div className="col-lg-5 col-md-12 text-end">
@@ -23,12 +23,12 @@ const CaseStudy = () => {
           </div>
 
           <div className="row justify-content-center">
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <div className="single-case-study-card">
                 <Link href="/case-study-details">
                   <a>
                     <img
-                      src="/images/case-study/case-study-1.jpg"
+                      src="/images/la_auto_db9b537562 (1).png"
                       alt="Teza"
                     />
                   </a>
@@ -36,9 +36,11 @@ const CaseStudy = () => {
                 <div className="case-study-content">
                   <h3>
                     <Link href="/case-study-details">
-                      <a>Product Engineering</a>
+                      <a>LA AUTO SPOT</a>
                     </Link>
+
                   </h3>
+                  <h4>Car Booking System</h4>
                   <Link href="/case-study-details">
                     <a className="case-btn">
                       <i className="ri-arrow-right-line"></i>
@@ -48,12 +50,12 @@ const CaseStudy = () => {
               </div>
             </div>
 
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <div className="single-case-study-card">
                 <Link href="/case-study-details">
                   <a>
                     <img
-                      src="/images/case-study/case-study-2.jpg"
+                      src="/images/morgan.jpg"
                       alt="Teza"
                     />
                   </a>
@@ -61,9 +63,36 @@ const CaseStudy = () => {
                 <div className="case-study-content">
                   <h3>
                     <Link href="/case-study-details">
-                      <a>Customer Segmentation</a>
+                                            <a>IT Staffing & Consulting</a>
                     </Link>
                   </h3>
+                  <h4>Car Booking System</h4>
+                  <Link href="/case-study-details">
+                    <a className="case-btn">
+                      <i className="ri-arrow-right-line"></i>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+                  <div className="col-lg-4 col-md-6">
+              <div className="single-case-study-card">
+                <Link href="/case-study-details">
+                  <a>
+                    <img
+                      src="/images/ecospot.png"
+                      alt="Teza"
+                    />
+                  </a>
+                </Link>
+                <div className="case-study-content">
+                  <h3>
+                    <Link href="/case-study-details">
+                      <a>Ecospot Recycling</a>
+                    </Link>
+                  </h3>
+                  <h4>Recover, Reuse and then Recycle </h4>
                   <Link href="/case-study-details">
                     <a className="case-btn">
                       <i className="ri-arrow-right-line"></i>

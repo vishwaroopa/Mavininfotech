@@ -11,28 +11,9 @@ const OurServices = () => {
             <h2>Get Benefit And More With Our Excelent Services</h2>
           </div>
 
+           
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6">
-              <div className="single-services-card">
-                <div className="icon">
-                  <i className="ri-cast-line"></i>
-                </div>
-                <h3>
-                  <Link href="/service-details">
-                    <a>Business Strategy</a>
-                  </Link>
-                </h3>
-                <p>
-                  Lorem ipsum dolor sit amet consec tetur adip iscing elit non
-                  in pretium blandit loremm ipdum pronibh ultrna some.
-                </p>
-                <Link href="/service-details">
-                  <a className="services-btn">Learn More</a>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
+           <div className="col-lg-3 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
                   <i className="ri-codepen-fill"></i>
@@ -43,8 +24,25 @@ const OurServices = () => {
                   </Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet consec tetur adip iscing elit non
-                  in pretium blandit loremm ipdum pronibh ultrna some.
+                 Magento/Shopify/Drupal/Wordpress Custom Web Development
+                </p>
+                <Link href="/service-details">
+                  <a className="services-btn">Learn More</a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <div className="single-services-card">
+                <div className="icon">
+                  <i className="ri-cast-line"></i>
+                </div>
+                <h3>
+                  <Link href="/service-details">
+                    <a>UI/UX Development</a>
+                  </Link>
+                </h3>
+                <p>
+                  Best in all E-commerce and Enterprise application UI design
                 </p>
                 <Link href="/service-details">
                   <a className="services-btn">Learn More</a>
@@ -52,19 +50,37 @@ const OurServices = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-three">
                   <i className="ri-stack-line"></i>
                 </div>
                 <h3>
                   <Link href="/service-details">
-                    <a>Marketing & Reporting</a>
+                    <a>Store Development</a>
                   </Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet consec tetur adip iscing elit non
-                  in pretium blandit loremm ipdum pronibh ultrna some.
+                 We create effective B2B & B2C eCommerce mobile apps and stores
+                </p>
+                <Link href="/service-details">
+                  <a className="services-btn">Learn More</a>
+                </Link>
+              </div>
+            </div>
+
+               <div className="col-lg-3 col-md-6">
+              <div className="single-services-card">
+                <div className="icon color-three">
+                  <i className="ri-stack-line"></i>
+                </div>
+                <h3>
+                  <Link href="/service-details">
+                    <a>Mobile Development</a>
+                  </Link>
+                </h3>
+                <p>
+                 IOS/Andriod/Hybrid Apps Custom Mobile Applications
                 </p>
                 <Link href="/service-details">
                   <a className="services-btn">Learn More</a>

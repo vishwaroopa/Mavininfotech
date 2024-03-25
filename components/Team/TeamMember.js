@@ -6,7 +6,7 @@ const TeamMember = () => {
       <div className="team-area-without-color pt-100 pb-75">
         <div className="container">
           <div className="section-title">
-            <span>Our Expert Team</span>
+            <span>LATEST PROJECTS/CLIENT</span>
             <h2>Talented Member Ready To Start Our Project</h2>
           </div>
 

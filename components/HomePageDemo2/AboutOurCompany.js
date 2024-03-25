@@ -10,7 +10,7 @@ const AboutOurCompany = () => {
             <div className="col-lg-6 col-md-12">
               <div className="about-image-wrap">
                 <img
-                  src="/images/about/about-2.jpg"
+                  src="/images/Group_of_People_0053047a43.png"
                   alt="About Image"
                   data-aos="fade-down"
                   data-aos-delay="50"
@@ -41,23 +41,13 @@ const AboutOurCompany = () => {
               data-aos-once="true"
             >
               <div className="about-content">
-                <span>About Our Company</span>
+                <span>ABOUT MAVIN INFOTECH</span>
                 <h3>
-                  Best Award Winning Creative Agency Shape Of Perfect Solution
+                  We bring global best practices and resources to customers across industry verticals around the world.
+
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit et
-                  fames maecenas amet est scelerisque lectus tortor sit lorem
-                  ipsum dolor sit amet consectetur adipiscing elit et fames
-                  maecenas amet est scelerisque lectus tortor sit.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit et
-                  fames maecenas amet est scelerisque lectus tortor sit lorem
-                  ipsum dolor lorem ipsum dolor sit amet consectetur adipiscing
-                  elit et fames maecenas amet est scelerisque lectus tortor sit
-                  lorem ipsum dolor lorem ipsum dolor sit amet consectetur
-                  adipiscing elit et fames maecenas amet est.
+                  Mavin Infotech delivers high quality, reliable and cost-effective IT services to customers globally. We provide world-class technology services by constantly exploring and implementing innovative solutions that drive long-term value to our customers. As industry leaders, we introduced offshore development centers, pioneered "follow the sun" development and support frameworks, ensuring compressed delivery timeframe.
                 </p>
                 <div className="about-btn">
                   <Link href="/about">

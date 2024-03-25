@@ -8,8 +8,8 @@ const TeamMemberStyle2 = () => {
       <div className="team-area pt-100 pb-75">
         <div className="container">
           <div className="section-title">
-            <span>Our Expert Team</span>
-            <h2>Talented Member Ready To Start Our Project</h2>
+            <span>LATEST PROJECTS/CLIENTS</span>
+            <h2>Recent Innovations and Partnerships in Software Development</h2>
           </div>
 
           <Swiper
@@ -35,50 +35,14 @@ const TeamMemberStyle2 = () => {
             <SwiperSlide>
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/team/team-1.jpg" alt="Teza" />
+                  <img src="/images/bk_5f4e3cdb42.jpg" alt="Teza" />
 
                   <ul className="social">
-                    <li>
-                      <a
-                        href="https://www.facebook.com/EnvyTheme"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-facebook-fill"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://twitter.com/?lang=en"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-twitter-fill"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-instagram-line"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/signup"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-linkedin-line"></i>
-                      </a>
-                    </li>
+                    <li><h6>Infused with Canadian spring Water</h6></li>
                   </ul>
                 </div>
                 <div className="team-content">
-                  <h3>Thomas Adison</h3>
-                  <span>CEO & Founder</span>
+                  <h3>BLK Alkaline Mineral Water</h3>
                 </div>
               </div>
             </SwiperSlide>
@@ -86,50 +50,14 @@ const TeamMemberStyle2 = () => {
             <SwiperSlide>
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/team/team-5.jpg" alt="Teza" />
+                  <img src="/images/aci_1_0700a7c6f2.png" alt="Teza" />
 
                   <ul className="social">
-                    <li>
-                      <a
-                        href="https://www.facebook.com/EnvyTheme"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-facebook-fill"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://twitter.com/?lang=en"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-twitter-fill"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-instagram-line"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/signup"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-linkedin-line"></i>
-                      </a>
-                    </li>
+                    <li><h6>Sage X3 Implementation & Support</h6></li>
                   </ul>
                 </div>
                 <div className="team-content">
-                  <h3>Jeclin Firnandos</h3>
-                  <span>Manager</span>
+                  <h3>ACI Consulting</h3>
                 </div>
               </div>
             </SwiperSlide>
@@ -137,50 +65,14 @@ const TeamMemberStyle2 = () => {
             <SwiperSlide>
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/team/team-2.jpg" alt="Teza" />
+                  <img src="/images/autodeski_1_d8488baaea.png" alt="Teza" />
 
                   <ul className="social">
-                    <li>
-                      <a
-                        href="https://www.facebook.com/EnvyTheme"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-facebook-fill"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://twitter.com/?lang=en"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-twitter-fill"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-instagram-line"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/signup"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-linkedin-line"></i>
-                      </a>
-                    </li>
+                    <li><h6>IT Staffing & Consulting</h6></li>
                   </ul>
                 </div>
                 <div className="team-content">
-                  <h3>Albas Madris</h3>
-                  <span>Marketing Director</span>
+                  <h3>AUTODESK</h3>
                 </div>
               </div>
             </SwiperSlide>
@@ -188,50 +80,14 @@ const TeamMemberStyle2 = () => {
             <SwiperSlide>
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/team/team-3.jpg" alt="Teza" />
+                   <img src="/images/naacp_awards_trophy_6a9d254b90.jpg" alt="Teza" />
 
                   <ul className="social">
-                    <li>
-                      <a
-                        href="https://www.facebook.com/EnvyTheme"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-facebook-fill"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://twitter.com/?lang=en"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-twitter-fill"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-instagram-line"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/signup"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-linkedin-line"></i>
-                      </a>
-                    </li>
+                    <li><h6>International Awards NAACP</h6></li>
                   </ul>
                 </div>
                 <div className="team-content">
-                  <h3>Jeson Smith</h3>
-                  <span>Founder</span>
+                  <h3>NAACP Image Awards</h3>
                 </div>
               </div>
             </SwiperSlide>
@@ -239,50 +95,14 @@ const TeamMemberStyle2 = () => {
             <SwiperSlide>
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/team/team-4.jpg" alt="Teza" />
+                   <img src="/images/la_auto_db9b537562 (1).png" alt="Teza" />
 
                   <ul className="social">
-                    <li>
-                      <a
-                        href="https://www.facebook.com/EnvyTheme"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-facebook-fill"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://twitter.com/?lang=en"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-twitter-fill"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-instagram-line"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/signup"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-linkedin-line"></i>
-                      </a>
-                    </li>
+                    <li><h6>Car Booking System</h6></li>
                   </ul>
                 </div>
                 <div className="team-content">
-                  <h3>Meriva Anjlin</h3>
-                  <span>Designer, Themeforest</span>
+                  <h3>LA Auto Spot</h3>
                 </div>
               </div>
             </SwiperSlide>
@@ -290,155 +110,32 @@ const TeamMemberStyle2 = () => {
             <SwiperSlide>
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/team/team-6.jpg" alt="Teza" />
+                  <img src="/images/morgan.jpg" alt="Teza" />
 
                   <ul className="social">
-                    <li>
-                      <a
-                        href="https://www.facebook.com/EnvyTheme"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-facebook-fill"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://twitter.com/?lang=en"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-twitter-fill"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-instagram-line"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/signup"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-linkedin-line"></i>
-                      </a>
-                    </li>
+                    <li><h6>IT Staffing & Consulting</h6></li>
                   </ul>
                 </div>
                 <div className="team-content">
-                  <h3>Sayful Milon</h3>
-                  <span>Data Management</span>
+                  <h3>Morgan Stanley</h3>
                 </div>
               </div>
             </SwiperSlide>
-
-            <SwiperSlide>
+ <SwiperSlide>
               <div className="single-team-item">
                 <div className="team-image">
-                  <img src="/images/team/team-7.jpg" alt="Teza" />
+                  <img src="/images/ecospot.png" alt="Teza" />
 
                   <ul className="social">
-                    <li>
-                      <a
-                        href="https://www.facebook.com/EnvyTheme"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-facebook-fill"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://twitter.com/?lang=en"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-twitter-fill"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-instagram-line"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/signup"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-linkedin-line"></i>
-                      </a>
-                    </li>
+                    <li><h6>Redcue, Reuse and Recycle</h6></li>
                   </ul>
                 </div>
                 <div className="team-content">
-                  <h3>Jeqlin Firnos</h3>
-                  <span>Analytical Solutions</span>
+                  <h3>Ecospot Recycling</h3>
                 </div>
               </div>
             </SwiperSlide>
 
-            <SwiperSlide>
-              <div className="single-team-item">
-                <div className="team-image">
-                  <img src="/images/team/team-8.jpg" alt="Teza" />
-
-                  <ul className="social">
-                    <li>
-                      <a
-                        href="https://www.facebook.com/EnvyTheme"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-facebook-fill"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://twitter.com/?lang=en"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-twitter-fill"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-instagram-line"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/signup"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="ri-linkedin-line"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="team-content">
-                  <h3>Jonthon Doe</h3>
-                  <span>Marketing Director</span>
-                </div>
-              </div>
-            </SwiperSlide>
           </Swiper>
         </div>
 
