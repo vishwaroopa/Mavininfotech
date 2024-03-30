@@ -21,10 +21,7 @@ const Faq = () => {
                   Boost Business With Creative Idea & Brand Solutions With Us
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit et
-                  fames maecenas amet est scelerisque lectus tortor sit lorem
-                  ipsum dolor sit amet consectetur adipiscing elit et fames
-                  maecenas.
+                 Curious Minds, Welcome! Have questions about our services, pricing, or how we can help elevate your business? We're here to provide clarity and guidance. Whether you're seeking technical advice or simply want to learn more about what we offer, don't hesitate to reach out. Our team is dedicated to ensuring you have all the information you need to make informed decisions. Ask away, and let's start a conversation!
                 </p>
 
                 <div className="row justify-content-center">
@@ -83,10 +80,7 @@ const Faq = () => {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Donec sollicitudin molestie malesuada. Pellentesque in
-                        ipsum id orci porta dapibus. Curabitur arcu erat
-                        accumsan id imperdiet et porttitor at sem. Nulla
-                        porttitor accumsan tincidunt.
+                        We specialize in custom website development tailored to your business needs. Our services include responsive design for seamless viewing across devices, integration of user-friendly CMS platforms, e-commerce solutions, and ongoing maintenance and support. We're dedicated to delivering high-quality web solutions that drive business growth and enhance your online presence.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -99,29 +93,12 @@ const Faq = () => {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Donec sollicitudin molestie malesuada. Pellentesque in
-                        ipsum id orci porta dapibus. Curabitur arcu erat
-                        accumsan id imperdiet et porttitor at sem. Nulla
-                        porttitor accumsan tincidunt.
+                        The time it takes to develop a website depends on its complexity. A simple website with a few pages can take a few weeks, while larger websites with more features might take 2 to 3 months. Highly complex websites or custom web applications can take 6 months or more. Effective communication and collaboration between the client and development team are essential for timely delivery.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
 
-                  <AccordionItem uuid="c">
-                    <AccordionItemHeading>
-                      <AccordionItemButton>
-                        What About Money Back Guarantee!
-                      </AccordionItemButton>
-                    </AccordionItemHeading>
-                    <AccordionItemPanel>
-                      <p>
-                        Donec sollicitudin molestie malesuada. Pellentesque in
-                        ipsum id orci porta dapibus. Curabitur arcu erat
-                        accumsan id imperdiet et porttitor at sem. Nulla
-                        porttitor accumsan tincidunt.
-                      </p>
-                    </AccordionItemPanel>
-                  </AccordionItem>
+                  
                 </Accordion>
               </div>
             </div>

@@ -64,12 +64,12 @@ const NavbarStyle2 = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/about" activeClassName="active">
+                        <Link href="/content/who-are-we" activeClassName="active">
                           <a className="nav-link">Who Are We?</a>
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link href="/about-2" activeClassName="active">
+                        <Link href="/content/what-we-do" activeClassName="active">
                           <a className="nav-link">What We do?</a>
                         </Link>
                       </li>
@@ -82,13 +82,28 @@ const NavbarStyle2 = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/services" activeClassName="active">
-                          <a className="nav-link">Services</a>
+                        <Link href="/content/website-design-and-development" activeClassName="active">
+                          <a className="nav-link">Website Design & Development</a>
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link href="/service-details" activeClassName="active">
-                          <a className="nav-link">Services Details</a>
+                        <Link href="/content/mobile-application-development" activeClassName="active">
+                          <a className="nav-link">Mobile Application Development</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/content/ui-ux-development" activeClassName="active">
+                          <a className="nav-link">UI/UX Development</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/content/ai-services" activeClassName="active">
+                          <a className="nav-link">AI Services</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/content/cloud-services" activeClassName="active">
+                          <a className="nav-link">Cloud Services</a>
                         </Link>
                       </li>
                     </ul>
@@ -102,72 +117,27 @@ const NavbarStyle2 = () => {
                     </Link>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/pricing" activeClassName="active">
-                          <a className="nav-link">Pricing</a>
+                        <Link href="/content/talent-solutions" activeClassName="active">
+                          <a className="nav-link">Talent Solutions</a>
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link href="/team" activeClassName="active">
-                          <a className="nav-link">Team</a>
+                        <Link href="/content/contract-staffing" activeClassName="active">
+                          <a className="nav-link">Contract Staffing</a>
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link href="/faq" activeClassName="active">
-                          <a className="nav-link">FAQ</a>
+                        <Link href="/content/direct-hire" activeClassName="active">
+                          <a className="nav-link">Direct Hire</a>
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link href="/testimonials" activeClassName="active">
-                          <a className="nav-link">Testimonials</a>
+                        <Link href="/content/executive-search" activeClassName="active">
+                          <a className="nav-link">Executive Search</a>
                         </Link>
                       </li>
 
-                      <li className="nav-item">
-                        <a href="#" className="nav-link">
-                          User Pages <i className="ri-arrow-right-s-line"></i>
-                        </a>
-                        <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <Link href="/login" activeClassName="active">
-                              <a className="nav-link">Login</a>
-                            </Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link href="/register" activeClassName="active">
-                              <a className="nav-link">Register</a>
-                            </Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link
-                              href="/forgot-password"
-                              activeClassName="active"
-                            >
-                              <a className="nav-link">Forgot Password</a>
-                            </Link>
-                          </li>
-                        </ul>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link href="/terms-of-service" activeClassName="active">
-                          <a className="nav-link">Terms of Service</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/privacy-policy" activeClassName="active">
-                          <a className="nav-link">Privacy Policy</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/coming-soon" activeClassName="active">
-                          <a className="nav-link">Coming Soon</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/404" activeClassName="active">
-                          <a className="nav-link">404 Error Page</a>
-                        </Link>
-                      </li>
+                     
                     </ul>
                   </li>
 
@@ -177,16 +147,64 @@ const NavbarStyle2 = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/case-study" activeClassName="active">
-                          <a className="nav-link">Case Study</a>
+                        <Link href="/content/3-pl-erp" activeClassName="active">
+                          <a className="nav-link">3PL ERP</a>
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/case-study-details"
+                          href="/content/erp-1"
                           activeClassName="active"
                         >
-                          <a className="nav-link">Case Study Details</a>
+                          <a className="nav-link">ERP</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/content/crm"
+                          activeClassName="active"
+                        >
+                          <a className="nav-link">CRM</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/content/instafile-document-management"
+                          activeClassName="active"
+                        >
+                          <a className="nav-link">Instafile Document Management</a>
+                        </Link>
+                      </li>
+                       <li className="nav-item">
+                        <Link
+                          href="/content/mobile-device-management-mdm"
+                          activeClassName="active"
+                        >
+                          <a className="nav-link">Mobile Device Management (MDM)</a>
+                        </Link>
+                      </li>
+                       <li className="nav-item">
+                        <Link
+                          href="/content/instafile-document-management"
+                          activeClassName="active"
+                        >
+                          <a className="nav-link">Instafile Document Management</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/content/insta-training"
+                          activeClassName="active"
+                        >
+                          <a className="nav-link">InstaTraining</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/content/healthcare"
+                          activeClassName="active"
+                        >
+                          <a className="nav-link">Healthcare</a>
                         </Link>
                       </li>
                     </ul>
@@ -198,21 +216,31 @@ const NavbarStyle2 = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/blog" activeClassName="active">
-                          <a className="nav-link">Blog Grid</a>
+                        <Link href="/content/seo-services" activeClassName="active">
+                          <a className="nav-link">SEO Services</a>
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/blog-right-sidebar"
+                          href="/content/content-marketing"
                           activeClassName="active"
                         >
-                          <a className="nav-link">Blog Right Sidebar</a>
+                          <a className="nav-link">Content Marketing</a>
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link href="/blog-details" activeClassName="active">
-                          <a className="nav-link">Blog Details</a>
+                        <Link href="/content/social-media-marketing" activeClassName="active">
+                          <a className="nav-link">Social Media Marketing</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/content/facebook-marketing-services" activeClassName="active">
+                          <a className="nav-link">Facebook Marketing Services</a>
+                        </Link>
+                      </li>
+                       <li className="nav-item">
+                        <Link href="/content/youtube-marketing-services" activeClassName="active">
+                          <a className="nav-link">Youtube Marketing Services</a>
                         </Link>
                       </li>
                     </ul>
@@ -223,21 +251,26 @@ const NavbarStyle2 = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/blog" activeClassName="active">
-                          <a className="nav-link">Blog Grid</a>
+                        <Link href="/content/ecommerce-1" activeClassName="active">
+                          <a className="nav-link">eCommerce Development</a>
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/blog-right-sidebar"
+                          href="/content/magento-development"
                           activeClassName="active"
                         >
-                          <a className="nav-link">Blog Right Sidebar</a>
+                          <a className="nav-link">Magento Development</a>
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link href="/blog-details" activeClassName="active">
-                          <a className="nav-link">Blog Details</a>
+                        <Link href="/content/shopify-development" activeClassName="active">
+                          <a className="nav-link">Shopify Development</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/content/woocommerce-development" activeClassName="active">
+                          <a className="nav-link">WooCommerce Development</a>
                         </Link>
                       </li>
                     </ul>
@@ -247,21 +280,16 @@ const NavbarStyle2 = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/blog" activeClassName="active">
-                          <a className="nav-link">Blog Grid</a>
+                        <Link href="/jobs" activeClassName="active">
+                          <a className="nav-link">Current Vacancies</a>
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/blog-right-sidebar"
+                          href="/submit-resume"
                           activeClassName="active"
                         >
-                          <a className="nav-link">Blog Right Sidebar</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/blog-details" activeClassName="active">
-                          <a className="nav-link">Blog Details</a>
+                          <a className="nav-link">Submit Resume</a>
                         </Link>
                       </li>
                     </ul>

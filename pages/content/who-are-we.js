@@ -1,9 +1,9 @@
 import React from "react";
 import NavbarStyle2 from "@/components/Layout/Navbar/NavbarStyle2";
 import PageBanner from "@/components/Common/PageBanner";
-import AboutOurCompany from "@/components/About/AboutOurCompany";
-import FunFactStyle3 from "@/components/Common/FunFactStyle3";
-import OurExpertise from "@/components/About/OurExpertise";
+import AboutOurCompany from "@/components/HomePageDemo2/AboutOurCompany1";
+import FunFactStyle3 from "@/components/Common/FunFactStyle2";
+import OurExpertise from "@/components/HomePageDemo2/OurExpertise";
 import WorkingProcess from "@/components/About/WorkingProcess";
 import WhyChooseUsStyle2 from "@/components/Common/WhyChooseUsStyle2";
 import TestimonialStyle2 from "@/components/Common/TestimonialStyle2";
@@ -16,7 +16,7 @@ export default function About() {
     <>
       <NavbarStyle2 />
 
-      <PageBanner title="About One" homeText="Home" homeUrl="/" />
+      <PageBanner title="WHO ARE WE?" homeText="Home" homeUrl="/" />
 
       <AboutOurCompany />
 
@@ -24,9 +24,6 @@ export default function About() {
 
       <OurExpertise />
 
-      <WorkingProcess />
-
-      <WhyChooseUsStyle2 />
 
       <TestimonialStyle2 />
 
