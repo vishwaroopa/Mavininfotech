@@ -36,12 +36,11 @@ const Pricing = () => {
                   </h3>
                 </div>
                 <div className="price">
-                 eCommerce Web Development
+                 Android Web-based Apps   
                 </div>
                 <div>
                 <p>
-We can develop full-scale e-commerce websites and multi-vendor marketplaces (B2B and B2C) using CMS/Platforms like Magento, WordPress+WooCommerce, BigCommerce, Shopify, osCommerce, and more. We integrate top security features, right plugins/extensions, and add the best functionality to your e-commerce website or application.                </p>
-                </div>
+We are proficient in developing easy to install, maintain and highly secure Android web-based applications. By choosing our Android-web based development services, you can get a flexible application that will expand easily as your business grows. Our innovative web-based app solutions have been admired by the clients worldwide.</p>                </div>
                 <br/>
               </div>
 
@@ -55,18 +54,71 @@ We can develop full-scale e-commerce websites and multi-vendor marketplaces (B2B
                   </h3>
                 </div>
                 <div className="price">
-                 CMS Based Websites
+                 Android UI/UX Design
                 </div>
                 <div>
                 <p>
-Having an in-depth technical knowledge of various open-source content management systems like WordPress, Drupal, Joomla, Magento, etc, we can build cutting-edge CMS based websites for different types of businesses. Our developers can help choose the best CMS for your website and build the right solution that meets your expectations.                </p>
-                </div><br/>
+We are focused on creating powerful and reliable Android devices that render an amazing user experience. Our expert designers make diligent use of the functionality and skillfulness of the Android platform to craft alluring designs. We have developed Android apps with an impeccable UI/UX design for various business niches.
+</p>                </div><br/>
               </div>
 
             </div>
-          </div>
+
+                        <div className="col-lg-4 col-md-6">
+              <div className="single-pricing-table">
+                <div className="pricing-header">
+                  <h3>
+                    <i className="ri-computer-line"></i> 
+                  </h3>
+                </div>
+                <div className="price">
+                  PhoneGap App Development
+                </div>
+                <div><p>At Mavin, we build a highly-sophisticated and cost-efficient Hybrid mobile app for multiple platforms; for example, iOS, Android, and Windows. PhoneGap is a preferred cross-platform framework that is programmed using HTML, CSS, and JavaScript.</p></div><br/>
+
+              </div>
+
+            </div>
+
+     <div className="col-lg-4 col-md-6">
+              <div className="single-pricing-table">
+                <div className="pricing-header">
+                  <h3>
+                    <i className="ri-group-line"></i> 
+                  </h3>
+                </div>
+                <div className="price">
+                Custom iOS App Development  
+                </div>
+                <div>
+                <p>
+We are adept at building custom iOS apps that meet clients' needs and packed with modern features. You can share your app idea and we will turn it into a secure, scalable, and robust iOS app. Having expertise in varied iOS technologies, our developers craft bespoke apps for varied business verticals.
+</p>                <br/></div>
+              </div>
+
+            </div>
+
+      <div className="col-lg-4 col-md-6">
+              <div className="single-pricing-table">
+                <div className="pricing-header">
+                  <h3>
+                    <i className="ri-file-line"></i> 
+                  </h3>
+                </div>
+                <div className="price">
+                 Hybrid iOS App Development
+                </div>
+                <div>
+                <p>
+We craft cutting-edge hybrid iOS apps that will work consistently on different mobile platforms. Our developers make the best use of frameworks like Flutter, Sencha Touch, React Native, Ionic, PhoneGap, etc to develop fully-functional hybrid apps. We integrate user-friendly app features that are optimized for varied mobile platforms.
+</p>                </div><br/>
+              </div>
+
+            </div>
+     
         </div>
       </div>
+       </div>
     </>
   );
 };

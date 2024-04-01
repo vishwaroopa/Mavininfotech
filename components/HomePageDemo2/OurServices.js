@@ -8,7 +8,7 @@ const OurServices = () => {
         <div className="container">
           <div className="section-title">
             <span>Our Services</span>
-            <h2>Get Benefit And More With Our Excelent Services</h2>
+            <h2>Experience High-Level Benefits with Our Excellent Services</h2>
           </div>
 
            

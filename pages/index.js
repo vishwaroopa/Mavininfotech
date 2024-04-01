@@ -23,7 +23,9 @@ export default function Index2() {
 
       <AboutOurCompany />
 
-      <FunFactStyle2 />
+        <CaseStudy />
+
+      <OurExpertise />
 
       <OurServices />
 
@@ -31,9 +33,7 @@ export default function Index2() {
 
       <Pricing />
 
-      <CaseStudy />
-
-      <OurExpertise />
+    
 
       <TestimonialStyle2 />
 
