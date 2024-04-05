@@ -7,7 +7,7 @@ const Pricing = () => {
       <div className="pricing-area pt-100 pb-75">
         <div className="container">
           <div className="section-title">
-            <h2>OUR ECOMMERCE WEBSITE DEVELOPMENT SERVICES</h2>
+            <h2>OUR MAGENTO ECOMMERCE DEVELOPMENT SERVICES</h2>
           </div>
 
           <div className="row justify-content-center">
@@ -19,9 +19,9 @@ const Pricing = () => {
                   </h3>
                 </div>
                 <div className="price">
-                  eCommerce App Development
+                  Magento eCommerce Web Design
                 </div>
-                <div><p>We create effective B2B & B2C eCommerce mobile apps that help you connect with customers in a more engaging way. We craft eCommerce mobile apps that offer easy navigation, seamless checkout, fast speed, and awe-inspiring UI/UX design.</p></div><br/>
+                <div><p>We will design a state-of-the-art Magento eCommerce website that bears top-notch features and functionality for your business. After listening to your requirements, our web designers and developers employ their skills to render front-end coding, payment methods integration, plugin integration, and do a lot of custom work.</p></div><br/>
 
               </div>
 
@@ -36,11 +36,11 @@ const Pricing = () => {
                   </h3>
                 </div>
                 <div className="price">
-                 Multi-Store Management
+                 Custom Magento Development
                 </div>
                 <div>
                 <p>
-Our developers are specialized in creating high-end eCommerce multi-stores. We simplify eCommerce management at the enterprise level by creating feature-rich multi-stores for companies that manage more than one brand.
+You can choose us as your Magento eCommerce development company to build custom Magento websites that include tailored functionalities and meet your business expectations. We come up with the best solutions after analysing your requirements. Our developers integrate the best payment methods, modules, extensions, and more.
                 </p>
                 </div>
                 <br/>
@@ -57,11 +57,11 @@ Our developers are specialized in creating high-end eCommerce multi-stores. We s
                   </h3>
                 </div>
                 <div className="price">
-                  CMS Integration
+                  Magento Migration Service
                 </div>
                 <div>
                 <p>
-We work with various open-source eCommerce platforms like OpenCart, Zen Cart, osCommerce, Magento, WordPress+WooCommerce, and other CMS like Shopify to build a fully-functional eCommerce website.
+Forget all the pains of migrating your Magento 1.x website to Magento 2.x as we will help you move your website to the latest Magento 2 platform while ensuring the safety and integrity of your data. Our developers are adept at handling all challenges related to migration and optimize the website for better performance and experience.
                 </p><br/>
                 </div><br/>
               </div>
@@ -77,11 +77,11 @@ We work with various open-source eCommerce platforms like OpenCart, Zen Cart, os
                   </h3>
                 </div>
                 <div className="price">
-                 Migration & Upgrade
+                 Magento Upgrade
                 </div>
                 <div>
                 <p>
-We help you migrate your eCommerce website to another platform without any data loss. We also help you upgrade your website to the latest version of a platform and ensure that your data and custom functionality remain intact while upgrading or migrating your site.
+You can experience new features and functionalities by upgrading the existing version of your Magento e-commerce platform to the latest one. We provide end-to-end assistance in updating your e-commerce store to the latest version. The new upgrade will bring improvements in performance, security, and user interface.
                 </p>
                 </div>
                 <br/>
@@ -98,13 +98,13 @@ We help you migrate your eCommerce website to another platform without any data 
                   </h3>
                 </div>
                 <div className="price">
-                  Third-party API Integration
+                  Magento Consulting Service
                 </div>
                 <div>
                 <p>
-Our developers can integrate third-party APIs like PayPal, FedEx, QuickBooks, Google Analytics API, etc that provide ease of performing various operations on your eCommerce website. We ensure to integrate third-party APIs with utter proficiency.
+We not only work as a Magento web development company but we also Magento consultants. We can guide and support you for running your business successfully. Our professionals provide a clear vision, right direction, practical strategies to help you get the most out of your investment. We offer an active Magento consultation service.
                 </p>
-                </div><br/>
+                </div>
               </div>
 
             </div>    

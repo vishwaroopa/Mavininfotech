@@ -7,7 +7,7 @@ const Pricing = () => {
       <div className="pricing-area pt-100 pb-75">
         <div className="container">
           <div className="section-title">
-            <h2>OUR ECOMMERCE WEBSITE DEVELOPMENT SERVICES</h2>
+            <h2>BENEFITS OF OUR WOOCOMMERCE SERVICES</h2>
           </div>
 
           <div className="row justify-content-center">
@@ -19,9 +19,9 @@ const Pricing = () => {
                   </h3>
                 </div>
                 <div className="price">
-                  eCommerce App Development
+                  Custom Development
                 </div>
-                <div><p>We create effective B2B & B2C eCommerce mobile apps that help you connect with customers in a more engaging way. We craft eCommerce mobile apps that offer easy navigation, seamless checkout, fast speed, and awe-inspiring UI/UX design.</p></div><br/>
+                <div><p>Our WooCommerce developer aims to offer tailor-made solutions to our clients with top-tier WooCommerce solutions. We understand the needs and goals of our clients to change their ideas into reality.</p><br/></div><br/>
 
               </div>
 
@@ -36,12 +36,12 @@ const Pricing = () => {
                   </h3>
                 </div>
                 <div className="price">
-                 Multi-Store Management
+                 Integration & Upgradation
                 </div>
                 <div>
                 <p>
-Our developers are specialized in creating high-end eCommerce multi-stores. We simplify eCommerce management at the enterprise level by creating feature-rich multi-stores for companies that manage more than one brand.
-                </p>
+Mavin Infotech can help you with the integration of the latest technology to make sure you are not lacking behind. We can upgrade your existing online shopping website with exceptional features.
+                </p><br/>
                 </div>
                 <br/>
 
@@ -57,13 +57,13 @@ Our developers are specialized in creating high-end eCommerce multi-stores. We s
                   </h3>
                 </div>
                 <div className="price">
-                  CMS Integration
+                  WooCommerce Migration
                 </div>
                 <div>
                 <p>
-We work with various open-source eCommerce platforms like OpenCart, Zen Cart, osCommerce, Magento, WordPress+WooCommerce, and other CMS like Shopify to build a fully-functional eCommerce website.
-                </p><br/>
-                </div><br/>
+Our professionals can migrate your existing business website to the WooCommerce platform. As an eminent WooCommerce Development Company, we offer assurance for the integrity and proper functioning of your website. Our experts prevent the loss of data during migration.
+                </p>
+                </div>
               </div>
 
             </div>  
@@ -77,16 +77,14 @@ We work with various open-source eCommerce platforms like OpenCart, Zen Cart, os
                   </h3>
                 </div>
                 <div className="price">
-                 Migration & Upgrade
+                 Responsive Website
                 </div>
                 <div>
                 <p>
-We help you migrate your eCommerce website to another platform without any data loss. We also help you upgrade your website to the latest version of a platform and ensure that your data and custom functionality remain intact while upgrading or migrating your site.
+We can develop a WooCommerce website that works on mobile devices as flawless as it functions on the desktop website. Mavin Infotech has experienced professionals who can create responsive websites that are platform-independent.
                 </p>
                 </div>
-                <br/>
-
-              </div>
+                          </div>
 
             </div>
 
@@ -98,13 +96,13 @@ We help you migrate your eCommerce website to another platform without any data 
                   </h3>
                 </div>
                 <div className="price">
-                  Third-party API Integration
+                  Integration & Up-gradation
                 </div>
                 <div>
                 <p>
-Our developers can integrate third-party APIs like PayPal, FedEx, QuickBooks, Google Analytics API, etc that provide ease of performing various operations on your eCommerce website. We ensure to integrate third-party APIs with utter proficiency.
+Mavin Infotech can help you with the integration of the latest technology to make sure you are not lacking behind. We can upgrade your existing online shopping website with exceptional features.
                 </p>
-                </div><br/>
+                </div>
               </div>
 
             </div>    
