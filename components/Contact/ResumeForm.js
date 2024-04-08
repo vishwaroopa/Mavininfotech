@@ -52,10 +52,10 @@ const ContactForm = () => {
 
   return (
     <>
-      <div className="contact-area pb-100">
+      <div className="contact-area pb-100 pt-100">
         <div className="container">
           <div className="section-title">
-            <h2>Get In Touch</h2>
+            <h2>Submit Resume</h2><br/>
             <p>Please fill out the form below to send us an email and we will get back to you as soon as possible.</p>
           </div>
 
@@ -70,7 +70,21 @@ const ContactForm = () => {
                       name="name"
                       className="form-control"
                       value={contact.name}
-                      placeholder="Your Name *"
+                      placeholder="First Name *"
+                      onChange={handleChange}
+                      required
+                    />
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6 col-sm-6">
+                  <div className="form-group">
+                    <label></label>
+                    <input
+                      type="text"
+                      name="name"
+                      className="form-control"
+                      value={contact.name}
+                      placeholder="Last Name *"
                       onChange={handleChange}
                       required
                     />
@@ -102,16 +116,16 @@ const ContactForm = () => {
                     />
                   </div>
                 </div>
-                <div className="col-lg-6 col-md-6 col-sm-12">
+                <div className="col-lg-12 col-md-12 col-sm-12">
                   <div className="form-group">
                     <textarea
                       name="text"
                       cols="30"
-                      rows="2"
+                      rows="4"
                       className="form-control"
                       value={contact.text}
                       onChange={handleChange}
-                      placeholder="Your Message *"
+                      placeholder="Im good at *"
                       required
 
                     ></textarea>
@@ -120,7 +134,7 @@ const ContactForm = () => {
                
                 <div className="col-lg-12 col-md-12 col-sm-12">
                   <button type="submit" className="btn default-btn">
-                    SEND MESSAGE
+                    SAVE APPLICATION
                   </button>
                 </div>
               </div>

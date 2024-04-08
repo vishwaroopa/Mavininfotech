@@ -1,7 +1,7 @@
 import React from "react";
 import NavbarStyle2 from "@/components/Layout/Navbar/NavbarStyle2";
 import PageBanner from "@/components/Common/PageBanner";
-import AboutOurCompany from "@/components/HomePageDemo2/AboutOurCompany5";
+import AboutOurCompany from "@/components/HomePageDemo2/AboutOurCompany8";
 import FunFactStyle3 from "@/components/Common/FunFactStyle2";
 import OurExpertise from "@/components/HomePageDemo2/OurExpertise";
 import WorkingProcess from "@/components/About/WorkingProcess";
@@ -17,7 +17,7 @@ export default function About() {
     <>
       <NavbarStyle2 />
 
-      <PageBanner title="MAVIN CRM" homeText="Home" homeUrl="/" />
+      <PageBanner title="INSTATRAINING" homeText="Home" homeUrl="/" />
 
       <AboutOurCompany />
 

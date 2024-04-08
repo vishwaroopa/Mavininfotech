@@ -4,7 +4,7 @@ import sgTransport from "nodemailer-sendgrid-transport";
 const transporter = {
   auth: {
     // Update your SendGrid API key here
-    api_key: "...",
+    api_key: "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",
   },
 };
 
@@ -16,7 +16,7 @@ export default async (req, res) => {
 
   const data = {
     // Update your email here
-    to: "exampleyourdomain@gmail.com",
+    to: "vishwarupa.vishu@gmail.com",
     from: email,
     subject: "Hi there",
     text: text,

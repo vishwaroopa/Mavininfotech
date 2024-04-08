@@ -183,14 +183,6 @@ const NavbarStyle2 = () => {
                           <a className="nav-link">Mobile Device Management (MDM)</a>
                         </Link>
                       </li>
-                       <li className="nav-item">
-                        <Link
-                          href="/content/instafile-document-management"
-                          activeClassName="active"
-                        >
-                          <a className="nav-link">Instafile Document Management</a>
-                        </Link>
-                      </li>
                       <li className="nav-item">
                         <Link
                           href="/content/insta-training"
@@ -280,13 +272,13 @@ const NavbarStyle2 = () => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link href="/jobs" activeClassName="active">
+                        <Link href="/content/jobs" activeClassName="active">
                           <a className="nav-link">Current Vacancies</a>
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/submit-resume"
+                          href="/content/submit-resume"
                           activeClassName="active"
                         >
                           <a className="nav-link">Submit Resume</a>
@@ -302,7 +294,7 @@ const NavbarStyle2 = () => {
             
  
                 <div className="option-item">
-                  <Link href="/contact">
+                  <Link href="/content/contact-us">
                     <a className="default-btn">
                       Contact Us
                     </a>

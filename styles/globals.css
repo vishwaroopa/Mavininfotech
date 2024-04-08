@@ -2251,7 +2251,13 @@ Page Banner Area CSS
   z-index: 1;
   overflow: hidden;
 }
-
+.page-banner-area1 {
+  background-color: #F9F5F4;
+  padding-top: 80px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
 .page-banner-content h2 {
   font-size: 65px;
   margin-bottom: 20px;
@@ -2473,8 +2479,9 @@ Contact Form Area CSS
   font-size: 15px;
   font-weight: 400;
 }
-.contact-form .form-group textarea.form-control {
-  min-height: 115px;
+.contact-information-area i:before {
+      margin-left: -10px;
+    margin-right: 5px;
 }
 .contact-form .list-unstyled {
   padding: 0;

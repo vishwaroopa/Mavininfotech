@@ -7,55 +7,44 @@ const ContactInfo = () => {
         <div className="container">
           <div className="section-title">
             <span>Contact Information</span>
-            <h2>Alone We Can Do So Little Together We Can Do So Much</h2>
+            <h2>WE'D LOVE TO HEAR FROM YOU</h2>
           </div>
 
           <div className="row justify-content-center">
             <div className="col-lg-3 col-md-6">
               <div className="contact-information-card">
-                <div className="icon">
-                  <i className="ri-map-pin-line"></i>
-                </div>
                 <h3>India Office and Development Center:</h3>
-                <p> Block # 304 & 305, Bhanu Arcade, Opp. Hi-Tech theater, Madhapur, Hyderabad-500081, Telangana, India.</p>
-                <p>info@mavininfotech.com</p>
+                <p><i className="ri-map-pin-line"></i> Block # 304 & 305, Bhanu Arcade, Opp. Hi-Tech theater, Madhapur, Hyderabad-500081, Telangana, India.</p>
+                <p><i className="ri-mail-line"></i><a href="mailto:info@mavininfotech.com">info@mavininfotech.com</a><br/>D-U-N-S # 828400320</p>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6">
               <div className="contact-information-card">
-                <div className="icon">
-                  <i className="ri-mail-line"></i>
-                </div>
-                <h3>Email Address</h3>
-                <p>
-                  <a href="mailto:info@teza.com">info@teza.com</a> <br />{" "}
-                  <a href="mailto:contact@teza.com">contact@teza.com</a>
+                <h3>Bangalore Office and Development Center:</h3>
+                <p><i className="ri-map-pin-line"></i>CoWrks, RMZ Ecoworld, Building 6A, The Bay, Outer Ring Road, Bellandur, Bengaluru-560103, Karnataka, India.</p>
+                <br/><br/>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
+              <div className="contact-information-card">
+                <h3>Australia Office:</h3>
+                <p><i className="ri-user-line"></i>Garfield Vijay (Project Manager)<br/>
+                 <i className="ri-map-pin-line"></i>10 Anderson ct Endeavour hills Vic-3802.<br/><br/>
+                  <i className="ri-phone-line"></i><a href="tel:+61 448278886">+61 448278886</a> <br />
+                  <a href="mailto: vijay.garfield@mavininfotech.com"><i className="ri-mail-line"></i>vijay.garfield@mavininfotech.com</a>
                 </p>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6">
               <div className="contact-information-card">
-                <div className="icon">
-                  <i className="ri-phone-line"></i>
-                </div>
-                <h3>Phone Number</h3>
-                <p>
-                  <a href="tel:91298765436543">+912 9876 5436 543</a> <br />{" "}
-                  <a href="tel:91298765436766">+912 9876 5436 766</a>
-                </p>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6">
-              <div className="contact-information-card">
-                <div className="icon">
-                  <i className="ri-time-line"></i>
-                </div>
-                <h3>Working Hours</h3>
-                <p>
-                  Open Sunday To Thursday <br /> From 10.00 AM to 07.00 PM
+                <h3>Sales & Support:</h3>
+                <p><i className="ri-user-line"></i>Augustine R.<br/><br/><br/><br/>
+                  <i className="ri-phone-line"></i><a href="tel: +91-9963-197111"> +91-9963-197111</a> <br />
+                  <i className="ri-phone-line"></i><a href="tel:  +1 (312) 265 6214"> +1 (312) 265 6214</a>
+                  <a href="mailto: augustine@mavininfotech.com"><i className="ri-mail-line"></i>augustine@mavininfotech.com</a> <br />
                 </p>
               </div>
             </div>
