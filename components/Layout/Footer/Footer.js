@@ -58,23 +58,23 @@ const Footer = () => {
 
                 <ul className="quick-links">
                   <li>
-                    <Link href="/about">
+                    <Link href="/content/who-are-we">
                       <a>About Us</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/team">
-                      <a>Team</a>
+                    <Link href="/content/3-pl-erp/">
+                      <a>ERP</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services">
-                      <a>Services</a>
+                    <Link href="/content/contract-staffing/">
+                      <a>Contract Staffing</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/case-study">
-                      <a>Case Study</a>
+                    <Link href="/content/jobs/">
+                      <a>Jobs</a>
                     </Link>
                   </li>
                   <li>
@@ -92,28 +92,23 @@ const Footer = () => {
 
                 <ul className="quick-links">
                   <li>
-                    <Link href="/service-details">
-                      <a>Strategy & Research</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service-details">
+                    <Link href="/content/website-design-and-development/">
                       <a>Web Development</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service-details">
-                      <a>Web Solution</a>
+                    <Link href="/content/ecommerce-1/">
+                      <a>Ecommerce Development</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service-details">
-                      <a>Digital Marketing</a>
+                    <Link href="/content/seo-services/">
+                      <a>SEO Services</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/service-details">
-                      <a>App Development</a>
+                    <Link href="/content/mobile-application-development/">
+                      <a>Mobile App Development</a>
                     </Link>
                   </li>
                 </ul>

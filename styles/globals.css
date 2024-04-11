@@ -95,7 +95,9 @@ p:last-child {
 i {
   line-height: normal;
 }
-
+.black-logo {
+  max-width:120px;
+}
 .d-table {
   width: 100%;
   height: 100%;
@@ -2244,6 +2246,7 @@ FAQ Area CSS
 Page Banner Area CSS
 =================================================*/
 .page-banner-area {
+  background-image: url(/images/bg.jpg);
   background-color: #F9F5F4;
   padding-top: 150px;
   padding-bottom: 55px;
@@ -2259,6 +2262,7 @@ Page Banner Area CSS
   overflow: hidden;
 }
 .page-banner-content h2 {
+  color:white;
   font-size: 65px;
   margin-bottom: 20px;
 }
@@ -2270,8 +2274,8 @@ Page Banner Area CSS
   display: inline-block;
   list-style-type: none;
   font-size: var(--font-size);
-  font-weight: 400;
-  color: var(--paragraph-color);
+  font-weight: 700;
+    color: #ffcd3e;
   position: relative;
   margin-left: 25px;
 }
@@ -2292,8 +2296,9 @@ Page Banner Area CSS
   display: none;
 }
 .page-banner-content ul li a {
-  display: block;
-  color: var(--paragraph-color);
+ font-weight: 700;
+    display: block;
+  color:white;
 }
 .page-banner-content ul li a:hover {
   color: var(--main-color);
@@ -4001,3 +4006,58 @@ Buy Now Btn
   font-weight: 600;
   background: var(--black-color);
 }/*# sourceMappingURL=globals.css.map */
+#testimonials i {
+  color: #e6e6e6;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.testimonial {
+  position: relative;
+  border: 1px solid #4659753b;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 1px 2px 2px #4659753b;
+}
+.testimonial-image {
+  float: left;
+  margin-right: 15px;
+}
+.testimonial-image, .testimonial-image img {
+  display: block;
+  width: 95px;
+  height: 30px;
+  
+}
+.testimonial-content {
+  position: relative;
+  overflow: hidden;
+}
+.testimonial-content p {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-style: italic;
+}
+.testimonial-meta {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #666;
+}
+/* Team Section */
+#team {
+  padding: 0px 0;
+}
+#team h4 {
+  margin: 5px 0;
+}
+#team .team-img {
+  width: 240px;
+}
+#team .thumbnail {
+  background: transparent;
+  border: 0;
+}
+#team .thumbnail .caption {
+  padding: 2px 0 0 0;
+  color: #888;
+}

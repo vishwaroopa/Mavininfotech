@@ -14,90 +14,71 @@ const CaseStudy = () => {
                   Discover Our Ongoing Endeavors
                 </h2>
               </div>
-              <div className="col-lg-5 col-md-12 text-end">
-                <Link href="/case-study">
-                  <a className="default-btn">View More</a>
-                </Link>
-              </div>
+            
             </div>
           </div>
 
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6">
               <div className="single-case-study-card">
-                <Link href="/case-study-details">
-                  <a>
+                <a target="_blank"  href="https://autospotrentals.com/">
                     <img
                       src="/images/la_auto_db9b537562 (1).png"
                       alt="Teza"
                     />
                   </a>
-                </Link>
                 <div className="case-study-content">
                   <h3>
-                    <Link href="/case-study-details">
-                      <a>LA AUTO SPOT</a>
-                    </Link>
+                    <a target="_blank" href="https://autospotrentals.com/">
+                    LA AUTO SPOT</a>
+                   
 
                   </h3>
                   <h4>Car Booking System</h4>
-                  <Link href="/case-study-details">
-                    <a className="case-btn">
+                    <a rel="noopener noreferrer" href="https://autospotrentals.com/" target="_blank" className="case-btn">
                       <i className="ri-arrow-right-line"></i>
                     </a>
-                  </Link>
                 </div>
               </div>
             </div>
 
             <div className="col-lg-4 col-md-6">
               <div className="single-case-study-card">
-                <Link href="/case-study-details">
                   <a>
                     <img
                       src="/images/morgan.jpg"
                       alt="Teza"
                     />
                   </a>
-                </Link>
                 <div className="case-study-content">
                   <h3>
-                    <Link href="/case-study-details">
                                             <a>IT Staffing & Consulting</a>
-                    </Link>
                   </h3>
-                  <h4>Car Booking System</h4>
-                  <Link href="/case-study-details">
+                  <h4>Morgan Stanley</h4>
                     <a className="case-btn">
                       <i className="ri-arrow-right-line"></i>
                     </a>
-                  </Link>
                 </div>
               </div>
             </div>
 
                   <div className="col-lg-4 col-md-6">
               <div className="single-case-study-card">
-                <Link href="/case-study-details">
-                  <a>
+                <a target="_blank" href="https://www.ecospotrecycling.com/">
                     <img
                       src="/images/ecospot.png"
                       alt="Teza"
                     />
                   </a>
-                </Link>
                 <div className="case-study-content">
                   <h3>
-                    <Link href="/case-study-details">
-                      <a>Ecospot Recycling</a>
-                    </Link>
+                    <a target="_blank" href="https://www.ecospotrecycling.com/">
+                      Ecospot Recycling</a>
                   </h3>
                   <h4>Recover, Reuse and then Recycle </h4>
-                  <Link href="/case-study-details">
-                    <a className="case-btn">
+                  <a target="_blank"  className="case-btn" href="https://www.ecospotrecycling.com/">
                       <i className="ri-arrow-right-line"></i>
                     </a>
-                  </Link>
                 </div>
               </div>
             </div>

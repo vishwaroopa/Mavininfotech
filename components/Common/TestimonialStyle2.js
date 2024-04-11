@@ -16,9 +16,8 @@ const TestimonialStyle2 = () => {
                 <p>
                   Insights, Experiences, and Perspectives from Our Valued Customers/Employees
                 </p>
-                <Link href="/testimonials">
-                  <a className="default-btn">View More</a>
-                </Link>
+                <a className="default-btn" target="_blank" href="https://www.google.com/search?q=google+reviews+mavininfotech&oq=google+reviews+mavininfotech&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhAMgYIAhBFGEDSAQg2NzI1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#lrd=0x3bcb915e148b1e5f:0x46546dd9b6691d,1,,,,">
+                View More</a>
               </div>
             </div>
 

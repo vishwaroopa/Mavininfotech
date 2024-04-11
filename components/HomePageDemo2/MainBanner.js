@@ -69,12 +69,12 @@ const MainBanner = () => {
               data-aos-once="true"
             >
               <li>
-                <Link href="/contact">
+                <Link href="/content/contact-us">
                   <a className="default-btn">Contact Us</a>
                 </Link>
               </li>
               <li>
-                <Link href="/about">
+                <Link href="/content/website-design-and-development/">
                   <a className="optional-btn">Learn More</a>
                 </Link>
               </li>
@@ -127,12 +127,12 @@ const MainBanner = () => {
               data-aos-once="true"
             >
               <li>
-                <Link href="/contact">
+                <Link href="/content/contact-us">
                   <a className="default-btn">Contact Us</a>
                 </Link>
               </li>
               <li>
-                <Link href="/about">
+                <Link href="/content/jobs/">
                   <a className="optional-btn">Learn More</a>
                 </Link>
               </li>
@@ -188,12 +188,12 @@ Report on anything and everything.
               data-aos-once="true"
             >
               <li>
-                <Link href="/contact">
+                <Link href="/content/contact-us">
                   <a className="default-btn">Contact Us</a>
                 </Link>
               </li>
               <li>
-                <Link href="/about">
+                <Link href="/content/mobile-application-development/">
                   <a className="optional-btn">Learn More</a>
                 </Link>
               </li>
@@ -251,12 +251,12 @@ Warehouse, Sales, Manufacturing,
               data-aos-once="true"
             >
               <li>
-                <Link href="/contact">
+                <Link href="/content/contact-us">
                   <a className="default-btn">Contact Us</a>
                 </Link>
               </li>
               <li>
-                <Link href="/about">
+                <Link href="/content/3-pl-erp/">
                   <a className="optional-btn">Learn More</a>
                 </Link>
               </li>
@@ -312,12 +312,12 @@ Integrated with Microsoft outlook & Exchange Server<br/><br/><br/>
               data-aos-once="true"
             >
               <li>
-                <Link href="/contact">
+                <Link href="/content/contact-us">
                   <a className="default-btn">Contact Us</a>
                 </Link>
               </li>
               <li>
-                <Link href="/about">
+                <Link href="/content/crm/">
                   <a className="optional-btn">Learn More</a>
                 </Link>
               </li>

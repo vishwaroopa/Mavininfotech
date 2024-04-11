@@ -26,7 +26,7 @@ const Pricing = () => {
 
 </p></div><br/>
 <div className="pricing-btn">
-                  <Link href="/contact">
+                  <Link href="/content/3-pl-erp/">
                     <a className="default-btn">Learn More</a>
                   </Link>
                 </div>
@@ -51,7 +51,7 @@ const Pricing = () => {
                 </div>
                 <br/>
 <div className="pricing-btn">
-                  <Link href="/contact">
+                  <Link href="/content/erp-1/">
                     <a className="default-btn">Learn More</a>
                   </Link>
                 </div>
@@ -75,7 +75,7 @@ const Pricing = () => {
                 </p>
                 </div><br/>
 <div className="pricing-btn">
-                  <Link href="/contact">
+                  <Link href="/content/instafile-document-management/">
                     <a className="default-btn">Learn More</a>
                   </Link>
                 </div>

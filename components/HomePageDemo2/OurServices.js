@@ -19,14 +19,14 @@ const OurServices = () => {
                   <i className="ri-codepen-fill"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">
+                  <Link href="/content/website-design-and-development/">
                     <a>Website Development</a>
                   </Link>
                 </h3>
                 <p>
                  Magento/Shopify/Drupal/Wordpress Custom Web Development
                 </p>
-                <Link href="/service-details">
+                <Link href="/content/website-design-and-development/">
                   <a className="services-btn">Learn More</a>
                 </Link>
               </div>
@@ -37,14 +37,14 @@ const OurServices = () => {
                   <i className="ri-cast-line"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">
+                  <Link href="/content/ui-ux-development/">
                     <a>UI/UX Development</a>
                   </Link>
                 </h3>
                 <p>
                   Best in all E-commerce and Enterprise application UI design
                 </p>
-                <Link href="/service-details">
+                <Link href="/content/ui-ux-development/">
                   <a className="services-btn">Learn More</a>
                 </Link>
               </div>
@@ -56,14 +56,14 @@ const OurServices = () => {
                   <i className="ri-stack-line"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">
+                  <Link href="/content/ecommerce-1/">
                     <a>Store Development</a>
                   </Link>
                 </h3>
                 <p>
                  We create effective B2B & B2C eCommerce mobile apps and stores
                 </p>
-                <Link href="/service-details">
+                <Link href="/content/ecommerce-1/">
                   <a className="services-btn">Learn More</a>
                 </Link>
               </div>
@@ -75,25 +75,21 @@ const OurServices = () => {
                   <i className="ri-stack-line"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">
+                  <Link href="/content/mobile-application-development/">
                     <a>Mobile Development</a>
                   </Link>
                 </h3>
                 <p>
                  IOS/Andriod/Hybrid Apps Custom Mobile Applications
                 </p>
-                <Link href="/service-details">
+                <Link href="/content/mobile-application-development/">
                   <a className="services-btn">Learn More</a>
                 </Link>
               </div>
             </div>
           </div>
 
-          <div className="view-more-btn">
-            <Link href="/services">
-              <a className="default-btn">View More</a>
-            </Link>
-          </div>
+        
         </div>
       </div>
     </>

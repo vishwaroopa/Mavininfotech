@@ -50,7 +50,7 @@ const AboutOurCompany = () => {
                   Mavin Infotech delivers high quality, reliable and cost-effective IT services to customers globally. We provide world-class technology services by constantly exploring and implementing innovative solutions that drive long-term value to our customers. As industry leaders, we introduced offshore development centers, pioneered "follow the sun" development and support frameworks, ensuring compressed delivery timeframe.
                 </p>
                 <div className="about-btn">
-                  <Link href="/about">
+                  <Link href="/content/who-are-we">
                     <a className="default-btn">Learn More</a>
                   </Link>
                 </div>

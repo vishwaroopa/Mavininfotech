@@ -20,7 +20,6 @@ export default function About2() {
 
       <AboutOurCompany />
 
-      <FunFactStyle3 />
 
       <OurExpertise />
 

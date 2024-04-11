@@ -12,7 +12,7 @@ const Cta = () => {
           </div>
 
           <div className="cta-btn-box">
-            <Link href="/contact">
+            <Link href="/content/contact-us">
               <a className="default-btn">Contact Us</a>
             </Link>
           </div>

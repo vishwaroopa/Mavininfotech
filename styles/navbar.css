@@ -40,11 +40,11 @@ Navbar Area CSS
 .main-navbar .navbar .navbar-nav .nav-item a::after {
   content: "";
   position: absolute;
-  bottom: 25px;
+  bottom: 15px;
   right: 0;
   width: 0;
   height: 1px;
-  background-color: var(--main-color);
+      border-bottom: 2.3px solid #4e8db9;
   transition: all ease 0.5s;
 }
 .main-navbar .navbar .navbar-nav .nav-item a i {
