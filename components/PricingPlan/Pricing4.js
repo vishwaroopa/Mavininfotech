@@ -50,7 +50,7 @@ Given the constant growth of data volume and complexity, the need for greater pr
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-file-line"></i> 
+                    <i className="ri-app-store-line"></i> 
                   </h3>
                 </div>
                 <div className="price">
@@ -68,7 +68,7 @@ We develop intelligent software solutions capable of understanding human speech 
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-file-line"></i> 
+                    <i className="ri-settings-2-line"></i> 
                   </h3>
                 </div>
                 <div className="price">

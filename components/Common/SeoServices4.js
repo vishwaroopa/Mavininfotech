@@ -11,7 +11,7 @@ const OurServices = () => {
            <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-youtube-fill"></i>
                 </div>
                 <h3>
                     CREATE CUSTOMIZED YOUTUBE CHANNEL
@@ -25,7 +25,7 @@ We are the only resource who can quickly grasp your YouTube video promotion requ
                     <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-group-fill"></i>
                 </div>
                 <h3>
                     CONTENT & AUDIENCE TARGETING
@@ -40,7 +40,7 @@ YouTube video content targeting is the most crucial activity comes under YouTube
                    <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-star-fill"></i>
                 </div>
                 <h3>
                     GENERATE KEYWORDS & TITLES

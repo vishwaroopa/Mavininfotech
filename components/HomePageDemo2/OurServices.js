@@ -34,7 +34,7 @@ const OurServices = () => {
             <div className="col-lg-3 col-md-6">
               <div className="single-services-card">
                 <div className="icon">
-                  <i className="ri-cast-line"></i>
+                  <i className="ri-paint-line"></i>
                 </div>
                 <h3>
                   <Link href="/content/ui-ux-development/">
@@ -53,7 +53,7 @@ const OurServices = () => {
             <div className="col-lg-3 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-three">
-                  <i className="ri-stack-line"></i>
+                  <i className="ri-store-3-line"></i>
                 </div>
                 <h3>
                   <Link href="/content/ecommerce-1/">
@@ -72,7 +72,7 @@ const OurServices = () => {
                <div className="col-lg-3 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-three">
-                  <i className="ri-stack-line"></i>
+                  <i className="ri-cellphone-line"></i>
                 </div>
                 <h3>
                   <Link href="/content/mobile-application-development/">

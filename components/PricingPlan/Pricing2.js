@@ -16,7 +16,7 @@ const Pricing = () => {
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-computer-line"></i> 
+                    <i className="ri-apps-2-line"></i> 
                   </h3>
                 </div>
                 <div className="price">
@@ -32,7 +32,7 @@ const Pricing = () => {
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-group-line"></i> 
+                    <i className="ri-cellphone-line"></i> 
                   </h3>
                 </div>
                 <div className="price">
@@ -50,7 +50,7 @@ We are proficient in developing easy to install, maintain and highly secure Andr
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-file-line"></i> 
+                    <i className="ri-paint-line"></i> 
                   </h3>
                 </div>
                 <div className="price">
@@ -68,7 +68,7 @@ We are focused on creating powerful and reliable Android devices that render an 
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-computer-line"></i> 
+                    <i className="ri-app-store-line"></i> 
                   </h3>
                 </div>
                 <div className="price">
@@ -84,7 +84,7 @@ We are focused on creating powerful and reliable Android devices that render an 
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-group-line"></i> 
+                    <i className="ri-apple-line"></i> 
                   </h3>
                 </div>
                 <div className="price">
@@ -102,7 +102,7 @@ We are adept at building custom iOS apps that meet clients' needs and packed wit
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-file-line"></i> 
+                    <i className="ri-apps-line"></i> 
                   </h3>
                 </div>
                 <div className="price">

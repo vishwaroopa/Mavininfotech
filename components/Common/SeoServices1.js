@@ -15,7 +15,7 @@ const OurServices = () => {
            <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-paint-fill"></i>
                 </div>
                 <h3>
                     SEO Content Writing
@@ -29,7 +29,7 @@ We are a reputed SEO agency that is equipped with experienced content developers
                     <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-window-fill"></i>
                 </div>
                 <h3>
                     Blogs Creation
@@ -44,7 +44,7 @@ We can create relevant and meaningful blog posts that aim at educating the audie
                    <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-mail-send-fill"></i>
                 </div>
                 <h3>
                     Email Marketing
@@ -59,7 +59,7 @@ Our email marketing service ensures that your business always stays in the custo
                        <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-newspaper-line"></i>
                 </div>
                 <h3>
                     Press Releases

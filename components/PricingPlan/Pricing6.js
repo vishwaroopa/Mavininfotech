@@ -15,7 +15,7 @@ const Pricing = () => {
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-computer-line"></i> 
+                    <i className="ri-shopping-cart-line"></i> 
                   </h3>
                 </div>
                 <div className="price">
@@ -73,7 +73,7 @@ We work with various open-source eCommerce platforms like OpenCart, Zen Cart, os
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-group-line"></i> 
+                    <i className="ri-settings-line"></i> 
                   </h3>
                 </div>
                 <div className="price">
@@ -94,7 +94,7 @@ We help you migrate your eCommerce website to another platform without any data 
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-file-line"></i> 
+                    <i className="ri-paypal-line"></i> 
                   </h3>
                 </div>
                 <div className="price">

@@ -15,7 +15,7 @@ const OurServices = () => {
            <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-apps-2-fill"></i>
                 </div>
                 <h3>
                     VIRTUAL MARKETING
@@ -29,7 +29,7 @@ Drive traffic and online brand exposure with virtual marketing and get more audi
                     <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-facebook-fill"></i>
                 </div>
                 <h3>
                     FACEBOOK PAGE MANAGEMENT
@@ -44,7 +44,7 @@ To attract the Facebook audience and grow their number rapidly, we provide an ex
                    <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-app-store-fill"></i>
                 </div>
                 <h3>
                     IMPROVE SITE CONVERSION
@@ -59,7 +59,7 @@ Video Optimization This process includes the execution of varied technology used
                        <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-twitter-fill"></i>
                 </div>
                 <h3>
                     TWITTER ACCOUNT MANAGEMENT
@@ -73,7 +73,7 @@ This critical but crucial task is being handled to grasp Twitter users' attentio
                     <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-linkedin-fill"></i>
                 </div>
                 <h3>
                     LINKEDIN PROFILE CREATION & MANAGEMENT
@@ -88,7 +88,7 @@ The complete LinkedIn profile is created by the professional writer & managed by
                <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-book-mark-fill"></i>
                 </div>
                 <h3>
                     SOCIAL BOOKMARKING

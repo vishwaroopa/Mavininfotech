@@ -15,7 +15,7 @@ const OurServices = () => {
            <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-settings-line"></i>
                 </div>
                 <h3>
                     WEBSITE ANALYSIS
@@ -29,7 +29,7 @@ We, with an in-depth review of your site, find out weaknesses & strengths and di
                     <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-settings-2-line"></i>
                 </div>
                 <h3>
                     COMPETITOR ANALYSIS
@@ -44,7 +44,7 @@ It's a kind of assessment that returns the potential competitors' strength as we
                    <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-store-line"></i>
                 </div>
                 <h3>
                     IMPROVE SITE CONVERSION
@@ -73,7 +73,7 @@ Knowing the industry norms and the latest SEO trends, we endeavor to implement t
                     <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-speed-fill"></i>
                 </div>
                 <h3>
                     IMPROVE PAGE PROMINENCE
@@ -87,7 +87,7 @@ Getting organic traffic naturally is not an overnight task. Hence, we carry out 
                     <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-contacts-line"></i>
                 </div>
                 <h3>
                    SEO CONSULTATION

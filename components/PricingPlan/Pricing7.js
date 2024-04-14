@@ -15,7 +15,7 @@ const Pricing = () => {
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-computer-line"></i> 
+                    <i className="ri-shopping-cart-line"></i> 
                   </h3>
                 </div>
                 <div className="price">
@@ -53,7 +53,7 @@ You can choose us as your Magento eCommerce development company to build custom 
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-file-line"></i> 
+                    <i className="ri-settings-line"></i> 
                   </h3>
                 </div>
                 <div className="price">
@@ -73,7 +73,7 @@ Forget all the pains of migrating your Magento 1.x website to Magento 2.x as we 
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-group-line"></i> 
+                    <i className="ri-shopping-bag-line"></i> 
                   </h3>
                 </div>
                 <div className="price">
@@ -94,7 +94,7 @@ You can experience new features and functionalities by upgrading the existing ve
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-file-line"></i> 
+                    <i className="ri-customer-service-line"></i> 
                   </h3>
                 </div>
                 <div className="price">

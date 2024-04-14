@@ -15,7 +15,7 @@ const Pricing = () => {
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-computer-line"></i> 
+                    <i className="ri-slideshow-line"></i> 
                   </h3>
                 </div>
                 <div className="price">
@@ -53,7 +53,7 @@ At Mavin Infotech, our eminent Shopify website developer can migrate your existi
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-file-line"></i> 
+                    <i className="ri-phone-line"></i> 
                   </h3>
                 </div>
                 <div className="price">

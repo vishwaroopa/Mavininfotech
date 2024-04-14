@@ -53,7 +53,7 @@ Mavin Infotech can help you with the integration of the latest technology to mak
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-file-line"></i> 
+                    <i className="ri-shopping-basket-line"></i> 
                   </h3>
                 </div>
                 <div className="price">
@@ -73,7 +73,7 @@ Our professionals can migrate your existing business website to the WooCommerce 
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-group-line"></i> 
+                    <i className="ri-smartphone-line"></i> 
                   </h3>
                 </div>
                 <div className="price">
@@ -92,7 +92,7 @@ We can develop a WooCommerce website that works on mobile devices as flawless as
               <div className="single-pricing-table">
                 <div className="pricing-header">
                   <h3>
-                    <i className="ri-file-line"></i> 
+                    <i className="ri-settings-line"></i> 
                   </h3>
                 </div>
                 <div className="price">

@@ -11,7 +11,7 @@ const OurServices = () => {
            <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-facebook-fill"></i>
                 </div>
                 <h3>
                     FACEBOOK CAMPAIGN MANAGEMENT
@@ -25,7 +25,7 @@ Spread your business by making it more enhanced, attractive and engaged with our
                     <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-user-fill"></i>
                 </div>
                 <h3>
                     USER ENGAGEMENT
@@ -40,7 +40,7 @@ Without user engagement, business promotion cannot cross the market hurdles. We 
                    <div className="col-lg-4 col-md-6">
               <div className="single-services-card">
                 <div className="icon color-two">
-                  <i className="ri-codepen-fill"></i>
+                  <i className="ri-speed-fill"></i>
                 </div>
                 <h3>
                     INCREASED CONVERSION RATES

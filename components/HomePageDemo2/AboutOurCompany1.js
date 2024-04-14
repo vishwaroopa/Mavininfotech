@@ -54,11 +54,7 @@ Mavin InfoTech was setup to leverage the "Proven India Advantage" in delivering 
 Offshore Development Projects</li>
 <li>BPO & IT Enabled Services</li>
 <li>Staffing & Onsite Consulting Services   </li> </ul>            
-                <div className="about-btn">
-                  <Link href="/about">
-                    <a className="default-btn">Learn More</a>
-                  </Link>
-                </div>
+               
               </div>
 
 

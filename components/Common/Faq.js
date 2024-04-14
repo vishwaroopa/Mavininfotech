@@ -62,7 +62,7 @@ const Faq = () => {
                 </div>
 
                 <div className="mt-40">
-                  <Link href="/contact">
+                  <Link href="/content/contact-us">
                     <a className="default-btn">Contact</a>
                   </Link>
                 </div>
