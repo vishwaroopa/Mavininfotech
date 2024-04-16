@@ -28,29 +28,18 @@ function App() {
 
   return (
 <div>
-<div className="header"></div>
-<PageBanner title="What We Do" homeText="Home" homeUrl="/" />
-<div id="testimonials234">
-<div class="container">
-<div class="row">
-<div class="col-md-4">
-<div class="testimonial">
-<div class="testimonial-content">
-<div class="testimonial-meta"> 
-<h4>Russell Tobin </h4>
-</div>
-<a class="uk-link-reset" href="/jobs/mern_full_stack_developer_027">
-<div class="testimonial-meta"> 
-<h1>MERN Full Stack Developer - 027 </h1>
-</div>
-</a>
-<div class="testimonial-meta">
-<h4>Work From Home </h4>
+<div className="header page-banner-area page-banner-content ">
+
+<div className="container">
+<div className="row align-items-center justify-content-center">
+<div className="col-lg-12 col-md-12">
+<div className="page-banner-content">
+<h2>Jobs</h2>
 </div>
 </div>
 </div>
 </div>
-</div></div></div>
+</div>
       <Search setSearchKeyword={setSearchKeyword} /> 
 
     

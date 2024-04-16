@@ -38,9 +38,9 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = `${baseUrl}/api/contact`;
-      const { name, email, number, subject, text } = contact;
-      const payload = { name, email, number, subject, text };
+      const url = `https://backyard.laautospot.com/mavin/contact.php`;
+      const { name, email, number, text } = contact;
+      const payload = { name, email, number, text };
       const response = await axios.post(url, payload);
       console.log(response);
       setContact(INITIAL_STATE);

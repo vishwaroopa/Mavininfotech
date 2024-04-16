@@ -16,44 +16,48 @@ const Job = (props) => {
     tools,
   } = props.data;
 
-  let keywords = [role, level, ...languages, ...tools];
+  let keywords = [...languages, ...tools];
 
   const [icon, setIcon] = useState("");
 
  
 
   return (
+    <div className="col-md-4">
     <div
       className={
-        featured ? "job-container job-container--borderLeft" : "job-container"
+        featured ? "job-container testimonial job-container--borderLeft" : "testimonial"
       }
     >
-      
+
+      <div className="testimonial-content">
       <div className="part1">
         <div className="company">
           <span className="cname">{company}</span>
-          {props.data.new && <span className="new">new!</span>}
-          {props.data.featured && <span className="featured">featured</span>}
+          
+        </div>
+        <div className="role">
+          <span className="cname">{role}</span>
+          
         </div>
 
-        <div className="position">{position}</div>
+       <div className="testimonial-meta"> 
+<h3>{position}</h3></div>
 
-        <div className="details">
-          <span>{postedAt}</span>
-          <span>&nbsp;•&nbsp;</span>
-          <span>{contract}</span>
-          <span>&nbsp;•&nbsp;</span>
-          <span>{location}</span>
-        </div>
-      </div>
-
-      <div className="part2">
+       <div className="testimonial-meta">
+<h5>Work From Home </h5>
+</div>
+  <div className="part2">
         {keywords.map((key, id) => (
           <span onClick={() => props.setkeywords(key)} key={id}>
             {key}
           </span>
         ))}
       </div>
+      </div>
+</div></div>
+
+    
     </div>
   );
 };

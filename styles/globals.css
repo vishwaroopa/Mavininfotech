@@ -60,7 +60,9 @@ Default CSS
   --font-size: 16px;
   --transition: .6s;
 }
-
+.single-footer-widget img {
+  min-width:120px;
+}
 body {
   padding: 0;
   margin: 0;
@@ -68,7 +70,17 @@ body {
   font-size: var(--font-size);
   color: var(--paragraph-color);
 }
-
+.testimonial-content .part2 {
+  padding: 20px 0px 20px 0px;
+}
+.testimonial-content  .part2 span {
+  background: #a06050;
+    border-radius: 10px;
+    padding: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: white;
+}
 a {
   text-decoration: none;
   transition: var(--transition);
@@ -96,7 +108,7 @@ i {
   line-height: normal;
 }
 .black-logo {
-  max-width:120px;
+  min-width:120px;
 }
 .d-table {
   width: 100%;
@@ -4014,7 +4026,7 @@ Buy Now Btn
 .testimonial {
   position: relative;
   border: 1px solid #4659753b;
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 10px;
   box-shadow: 1px 2px 2px #4659753b;
 }
