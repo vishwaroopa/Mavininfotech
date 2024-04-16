@@ -5,6 +5,8 @@ import withReactContent from "sweetalert2-react-content";
 const MySwal = withReactContent(Swal);
 import baseUrl from "@/utils/baseUrl";
 import Link from "next/link";
+const https = require('https');
+
 
 const alertContent = () => {
   MySwal.fire({
@@ -38,10 +40,12 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = `https://backyard.laautospot.com/mavin/contact.php`;
+      const url = "https://admin.mavininfotech.com/mavin/contact.php";
       const { name, email, number, text } = contact;
       const payload = { name, email, number, text };
-      const response = await axios.post(url, payload);
+      const agent = new https.Agent({ rejectUnauthorized: false });
+      const response = await axios.post(url, payload,{httpsAgent: agent});
+      
       console.log(response);
       setContact(INITIAL_STATE);
       alertContent();
