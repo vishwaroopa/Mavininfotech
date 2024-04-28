@@ -103,9 +103,14 @@ p {
 p:last-child {
   margin-bottom: 0;
 }
-
+.jobss h2 {
+  text-align: center;
+}
 i {
   line-height: normal;
+}
+.rtl-sidebar {
+  display:none!important;
 }
 .black-logo {
   min-width:120px;

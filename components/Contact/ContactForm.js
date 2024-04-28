@@ -11,7 +11,7 @@ const https = require('https');
 const alertContent = () => {
   MySwal.fire({
     title: "Congratulations!",
-    text: "Your message was successfully send and will back to you soon",
+    text: "Thank you for contacting with us. Our team will be reaching out to you shortly...",
     icon: "success",
     timer: 2000,
     timerProgressBar: true,
@@ -40,7 +40,7 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = "https://admin.mavininfotech.com/mavin/contact.php";
+      const url = "https://admin.mavininfotech.com/mavin/resume1.php";
       const { name, email, number, text } = contact;
       const payload = { name, email, number, text };
       const agent = new https.Agent({ rejectUnauthorized: false });

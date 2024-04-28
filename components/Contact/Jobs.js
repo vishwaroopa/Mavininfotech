@@ -28,7 +28,7 @@ function App() {
 
   return (
 <div>
-<div className="header page-banner-area page-banner-content ">
+<div className="header page-banner-area page-banner-content jobss">
 
 <div className="container">
 <div className="row align-items-center justify-content-center">
@@ -40,7 +40,7 @@ function App() {
 </div>
 </div>
 </div>
-      <Search setSearchKeyword={setSearchKeyword} /> 
+      <br/><br/><Search setSearchKeyword={setSearchKeyword} /> 
 
     
 
