@@ -11,7 +11,7 @@ const https = require('https');
 const alertContent = () => {
   MySwal.fire({
     title: "Congratulations!",
-    text: "Your message was successfully send and will back to you soon",
+    text: "Thank you for submitting resume. Our team will be reaching out to you shortly...",
     icon: "success",
     timer: 2000,
     timerProgressBar: true,
@@ -41,8 +41,8 @@ const ContactForm = () => {
     e.preventDefault();
     try {
       const url = "https://admin.mavininfotech.com/mavin/contact.php";
-      const { name, email, number, text } = contact;
-      const payload = { name, email, number, text };
+      const { name, email, number, text, resume } = contact;
+      const payload = { name, email, number, text,  resume};
       const agent = new https.Agent({ rejectUnauthorized: false });
       const response = await axios.post(url, payload,{httpsAgent: agent});
       console.log(response);
@@ -119,7 +119,7 @@ const ContactForm = () => {
                     />
                   </div>
                 </div>
-                <div className="col-lg-12 col-md-12 col-sm-12">
+                <div className="col-lg-6 col-md-6 col-sm-6">
                   <div className="form-group">
                     <textarea
                       name="text"
@@ -132,6 +132,16 @@ const ContactForm = () => {
                       required
 
                     ></textarea>
+                  </div>
+                </div>
+                 <div className="col-lg-6 col-md-6 col-sm-6">
+                  <div className="form-group">
+                  <input type="file" 
+                  name="resume"
+                      className="form-control"
+                      onChange={handleChange}
+                      placeholder="Upload Resume *"
+                      required />
                   </div>
                 </div>
                

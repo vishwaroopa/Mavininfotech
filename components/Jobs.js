@@ -7,17 +7,10 @@ const Jobs = ({ data, setKeywords, keywords }) => {
 
    const SearchFunc = () => {
     if (keywords.length > 0) {
+      console.log(keywords);
       const newData = filteredData.filter((d) => {
-      return d.company.toLocaleLowerCase().includes(keywords);
+      return d.position.toLocaleLowerCase().includes(keywords);
       });
-      setfilteredData(data);
-      if (!data || (typeof data === 'object' && Object.keys(data).length === 0)) {
-        console.log("yes");
-       const newData = filteredData.filter((d) => {
-      return d.role.toLocaleLowerCase().includes(keywords);
-      }); 
-      }
-       console.log(newData);
       setfilteredData(newData);
     } else {
       setfilteredData(data);
@@ -25,7 +18,7 @@ const Jobs = ({ data, setKeywords, keywords }) => {
    };
 
   const modifiedData = () => {
-      if (keywords.length > 0) {
+      if (keywords) {
         console.log(keywords);
       const newData = data.filter((d) => {
         return keywords.every((key) => {
@@ -44,7 +37,7 @@ const Jobs = ({ data, setKeywords, keywords }) => {
   };
 
   useEffect(() => {
-  //modifiedData();
+    //modifiedData();
    SearchFunc();
   }, [keywords]);
 
