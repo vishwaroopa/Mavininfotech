@@ -1,6 +1,13 @@
 /*================================================
 Navbar Area CSS
 =================================================*/
+.copyright-area img {
+  height: 50px;
+  padding-left: 20px;
+}
+.copyright-area p {
+  color: black!important; 
+}
 .main-navbar {
   padding: 10px 0;
 }

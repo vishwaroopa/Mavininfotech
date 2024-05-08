@@ -83,11 +83,7 @@ const LatestArticles = () => {
                         </div>
                     </div>
 
-                    <div className="view-more-btn">
-                        <Link href="/blog">
-                            <a className="default-btn">View More</a>
-                        </Link>
-                    </div>
+                    
                 </div>
             </div>
 		</>

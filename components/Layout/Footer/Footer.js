@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from 'react';
 import Link from "next/link";
+import Popup from './Popup';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  const openPopup = () => {
+    setIsPopupOpen(true);
+  };
+
+  const closePopup = () => {
+    setIsPopupOpen(false);
+  };
+
   return (
     <>
       <footer className="footer-area pt-100">
@@ -19,7 +30,12 @@ const Footer = () => {
                 </div>
                 <p>
                   Mavin InfoTech was setup to leverage the "Proven India Advantage" in delivering low cost IT software services with a guarantee of Quality with Speed.
-                </p>
+                </p><br/>
+                <p class="ptext1">© Copyright 2003 - {currentYear}  <a
+                  href="https://mavininfotech.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >Mavin Infotech</a> </p>
                 <ul className="widget-social">
                   <li>
                     <a
@@ -142,18 +158,37 @@ const Footer = () => {
           </div>
         </div>
         <div className="copyright-area">
-          <div className="container">
+          <div className="container1">
             <div className="copyright-area-content">
               <p>
-                Copyright 2003 - {currentYear}  <a
-                  href="https://mavininfotech.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >Mavin Infotech</a> - D-U-N-S # 828400320 {' '}
-              </p>
+              <span class="lock">
+                <img alt="Login" onClick={openPopup} src="/images/login-icon.png" />
+                
+      <Popup isOpen={isPopupOpen} onClose={closePopup} />
+                </span>
+                <span class="foot-imgs">
+                <b >D-U-N-S # 828400320</b>
+                <a class="footer_ariba" href="http://discovery.ariba.com/profile/AN01012782156" target="_blank">
+                <img alt="View Mavin Infotech profile on Ariba Discovery"  src="/images/Ariba_badge_180x55.jpg" />
+                </a>
+                <a class="footer_cert" href="/images/10sb.jpg" target="_blank">
+                <img alt="Certification" class="sigimg" src="/images/sig_img1.png" title="10KSB" />
+                </a>
+                <a class="footer_cert" href="/images/weconnect.png" target="_blank">
+                <img alt="WE CONNECT" class="sigimg" src="/images/sig_img2.png" title="WE CONNECT" />
+                </a>
+                <a class="footer_cert" href="http://msmehyd.ap.nic.in/" target="_blank">
+                <img alt="MSME" class="sigimg" src="/images/sig_img3.png" title="MSME" />
+                </a>
+                <a class="footer_cert" href="/images/iso.jpg" target="_blank">
+                <img alt="ISO 9001:2008 CERTIFED" class="sigimg" src="/images/sig_img4.png" title="ISO 9001:2008 CERTIFED" />
+                </a>
+                </span>
+  </p>
             </div>
           </div>
         </div>
+      
       </footer>
     </>
   );
