@@ -33,7 +33,7 @@ const NavbarStyle2 = () => {
               <Link href="/">
                 <a className="navbar-brand">
                   <img
-                    src="/images/mavin-logo.svg"
+                    src="/images/logo (1).png"
                     alt="Black logo"
                     className="black-logo"
                   />
