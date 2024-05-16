@@ -693,8 +693,11 @@ About Area CSS
 =================================================*/
 .about-area {
   position: relative;
-  z-index: 1;
+  z-index: 0;
   overflow: hidden;
+}
+.popup-overlay,.popup-content{
+  z-index: 999999999!important;
 }
 
 .about-image {
@@ -771,7 +774,7 @@ Services Area CSS
   padding: 35px;
   border-radius: 5px;
   position: relative;
-  z-index: 1;
+  
   overflow: hidden;
   transition: var(--transition);
   border: 1px solid #eeeeee;
@@ -1340,7 +1343,7 @@ Testimonials Area CSS
 .testimonials-area {
   background-color: #F9F5F4;
   position: relative;
-  z-index: 1;
+
   overflow: hidden;
 }
 
@@ -1449,9 +1452,12 @@ Testimonials Area CSS
   background: var(--white-color);
   padding: 30px;
   position: relative;
-  z-index: 1;
+  
   transition: var(--transition);
   box-shadow: -13px 8px 32px rgba(217, 35, 12, 0.05);
+}
+.swiper-wrapper,.swiper {
+    z-index: 0;
 }
 .single-testimonials-card .box-content::before {
   left: 30px;
@@ -1767,7 +1773,7 @@ Team Area CSS
   background-color: #F9F5F4;
   overflow: hidden;
   position: relative;
-  z-index: 1;
+  
 }
 .team-area-with-color .container-fluid {
   position: relative;
@@ -2289,14 +2295,14 @@ Page Banner Area CSS
   padding-top: 150px;
   padding-bottom: 55px;
   position: relative;
-  z-index: 1;
+  
   overflow: hidden;
 }
 .page-banner-area1 {
   background-color: #F9F5F4;
   padding-top: 80px;
   position: relative;
-  z-index: 1;
+  
   overflow: hidden;
 }
 .page-banner-content h2 {
