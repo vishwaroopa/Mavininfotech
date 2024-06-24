@@ -2308,12 +2308,16 @@ Page Banner Area CSS
   
   overflow: hidden;
 }
+.about-area.ptb-100,.pricing-area.pt-100,.services-area.ptb-100  {
+      padding-top: 50px;
+    padding-bottom: 50px;
+}
 .page-banner-area .row .col-lg-6 {
   width: 100%;
 }
 .page-banner-content h2 {
   color:white;
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 20px;
   float: left;
 }
