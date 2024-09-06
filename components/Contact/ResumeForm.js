@@ -26,6 +26,7 @@ const INITIAL_STATE = {
   number: "",
   subject: "",
   text: "",
+  last: "",
 };
 
 const ContactForm = () => {
@@ -37,21 +38,44 @@ const ContactForm = () => {
     // console.log(contact)
   };
 
+
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const url = "https://backyard.laautospot.com/mavin/resume1.php";
-      const { name, email, number, text, resume } = contact;
-      const payload = { name, email, number, text,  resume};
-      const agent = new https.Agent({ rejectUnauthorized: false });
-      const response = await axios.post(url, payload,{httpsAgent: agent});
-      console.log(response);
-      setContact(INITIAL_STATE);
-      alertContent();
-    } catch (error) {
-      console.log(error);
-    }
-  };
+  e.preventDefault();
+  
+  // Create a FormData object
+  const formData = new FormData();
+
+  // Extract form fields from state
+  const { name, email, number, text, resume, last } = contact;
+
+  // Append other form fields to FormData
+  formData.append('name', name);
+  formData.append('email', email);
+  formData.append('number', number);
+  formData.append('text', text);
+    formData.append('last', last);
+
+  // Append the file (resume) to FormData, assuming `resume` is a File object
+  formData.append('resume', resume);
+
+  try {
+    const url = "https://backyard.laautospot.com/mavin/resume1.php";
+    
+    // Send POST request with FormData
+    const response = await axios.post(url, formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data', // Set content type
+      },
+      httpsAgent: new https.Agent({ rejectUnauthorized: false }), // For self-signed certificates
+    });
+
+    console.log(response);
+    setContact(INITIAL_STATE); // Reset form state
+    alertContent(); // Show success message
+  } catch (error) {
+    console.log(error);
+  }
+};
 
   return (
     <>
@@ -84,9 +108,9 @@ const ContactForm = () => {
                     <label></label>
                     <input
                       type="text"
-                      name="name"
+                      name="last"
                       className="form-control"
-                      value={contact.name}
+                      value={contact.last}
                       placeholder="Last Name *"
                       onChange={handleChange}
                       required
