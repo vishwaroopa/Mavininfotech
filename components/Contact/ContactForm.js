@@ -40,7 +40,7 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = "https://admin.mavininfotech.com/mavin/resume1.php";
+      const url = "https://backyard.laautospot.com/mavin/contact.php";
       const { name, email, number, text } = contact;
       const payload = { name, email, number, text };
       const agent = new https.Agent({ rejectUnauthorized: false });
