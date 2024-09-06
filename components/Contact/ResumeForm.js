@@ -27,6 +27,7 @@ const INITIAL_STATE = {
   subject: "",
   text: "",
   last: "",
+  resume: null
 };
 
 const ContactForm = () => {
@@ -37,11 +38,18 @@ const ContactForm = () => {
     setContact((prevState) => ({ ...prevState, [name]: value }));
     // console.log(contact)
   };
+  const handleChange1 = (e) => {
+  const { name, files } = e.target;
+  setContact(prevState => ({
+    ...prevState,
+    [name]: files[0] // Capture the first file if multiple files are allowed
+  }));
+};
 
 
   const handleSubmit = async (e) => {
   e.preventDefault();
-  
+  console.log(contact); // Verify that `contact.resume` is a file object
   // Create a FormData object
   const formData = new FormData();
 
@@ -163,7 +171,7 @@ const ContactForm = () => {
                   <input type="file" 
                   name="resume"
                       className="form-control"
-                      onChange={handleChange}
+                      onChange={handleChange1}
                       placeholder="Upload Resume *"
                       required />
                   </div>
