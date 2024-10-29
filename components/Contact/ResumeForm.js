@@ -32,6 +32,7 @@ const INITIAL_STATE = {
 
 const ContactForm = () => {
   const [contact, setContact] = useState(INITIAL_STATE);
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -51,6 +52,7 @@ const ContactForm = () => {
   e.preventDefault();
   console.log(contact); // Verify that `contact.resume` is a file object
   // Create a FormData object
+    setLoading(true); // Set loading to true on submit
   const formData = new FormData();
 
   // Extract form fields from state
@@ -83,6 +85,9 @@ const ContactForm = () => {
   } catch (error) {
     console.log(error);
   }
+    finally {
+      setLoading(false); // Reset loading state after submission completes
+    }
 };
 
   return (
@@ -178,8 +183,8 @@ const ContactForm = () => {
                 </div>
                
                 <div className="col-lg-12 col-md-12 col-sm-12">
-                  <button type="submit" className="btn default-btn">
-                    SAVE APPLICATION
+                 <button type="submit" className="btn default-btn" disabled={loading}>
+                    {loading ? "Submitting..." : "SAVE APPLICATION"}
                   </button>
                 </div>
               </div>
