@@ -129,7 +129,7 @@ const ContactForm = () => {
                
                 <div className="col-lg-12 col-md-12 col-sm-12">
                   <button type="submit" className="btn default-btn" disabled={loading}>
-                    {loading ? "Submitting..." : SEND MESSAGE"}
+                    {loading ? "Submitting..." : "SEND MESSAGE"}
                   </button>
                 </div>
               </div>
