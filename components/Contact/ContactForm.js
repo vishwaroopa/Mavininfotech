@@ -30,6 +30,7 @@ const INITIAL_STATE = {
 
 const ContactForm = () => {
   const [contact, setContact] = useState(INITIAL_STATE);
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -39,6 +40,7 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+     setLoading(true); // Set loading to true on submit
     try {
       const url = "https://backyard.laautospot.com/mavin/contact.php";
       const { name, email, number, text } = contact;
@@ -51,6 +53,9 @@ const ContactForm = () => {
       alertContent();
     } catch (error) {
       console.log(error);
+    }
+     finally {
+      setLoading(false); // Reset loading state after submission completes
     }
   };
 
@@ -123,8 +128,8 @@ const ContactForm = () => {
                 </div>
                
                 <div className="col-lg-12 col-md-12 col-sm-12">
-                  <button type="submit" className="btn default-btn">
-                    SEND MESSAGE
+                  <button type="submit" className="btn default-btn" disabled={loading}>
+                    {loading ? "Submitting..." : SEND MESSAGE"}
                   </button>
                 </div>
               </div>
