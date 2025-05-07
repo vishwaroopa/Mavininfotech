@@ -73,6 +73,33 @@ const Popup = ({ isOpen, onClose }) => {
     </table>
 </form>
                                 </div>
+     <div class="accordion-inner">
+     <h5>Forgot Password</h5>
+    <form name="form1" method="post" action="https://admin.mavininfotech.com/emplogin/mailpassword.php">
+                	<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" id="close_table">
+
+                      <tbody><tr> 
+            
+                        <td> 
+            
+                          <div align="center"><b>Email Address :</b> &nbsp;&nbsp;
+                          <input type="text" class="txtfield" name="formemail" id="txtToMail" placeholder="Email" required=""><div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div></div>
+            
+                         </td>
+            
+                      </tr>
+            
+                    </tbody></table>
+            
+                    <div align="center"> 
+            
+                      <input type="button" name="Submit" id="btnEmPwd" value="Email my Password">
+            
+                    </div>
+            
+                    <!--<p align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"></font></p>-->
+                </form>
+    </div>
                                 <div class="accordion-inner">
                                        <form action="https://admin.mavininfotech.com/emplogin/client/logincheck.php?ok=1" method="post" name="login_form" id="login_form">
                                        <h5>Client Login</h5>
