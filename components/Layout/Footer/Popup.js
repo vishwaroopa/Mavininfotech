@@ -82,12 +82,11 @@ const Popup = ({ isOpen, onClose }) => {
     <tr> 
             
                         <td class="content"> 
-  <input type="text" class="form-control" name="formemail" id="txtToMail" placeholder="Email Address: " required= />
-            
-                         </td>
+  <input type="text" class="form-control" name="formemail" required id="txtToMail" placeholder="Email Address: "  />
+            </td>
             
                       </tr>
-            <tr><td>&nbsp;</td></tr>
+            <tr><td><input type="hidden" name="text" value="" /></td></tr>
                     <tr>
                 <td colspan="2">
   <input name="button" type="submit" class="btn default-btn" id="button" value="Email my Password">
