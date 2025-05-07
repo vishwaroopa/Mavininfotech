@@ -2,6 +2,38 @@
 import React from 'react';
 
 const Popup = ({ isOpen, onClose }) => {
+
+  const [email, setEmail] = useState('');
+  const [responseMessage, setResponseMessage] = useState('');
+  const [loading, setLoading] = useState(false);
+
+  const handleForgotPassword = async (e) => {
+    e.preventDefault(); // Prevent the default form submission
+
+    setLoading(true);
+    setResponseMessage('');
+
+    try {
+      // Simulate API call or actual submission logic here
+      const response = await fetch('https://admin.mavininfotech.com/emplogin/mailpassword.php', {
+        method: 'POST',
+        body: new URLSearchParams({
+          formemail: email,
+          text: '',
+        }),
+      });
+
+        const data = await response.text(); // Get response as text (as per your format)
+
+      // Set the response text message directly in the state
+      setResponseMessage(data);
+    } catch (error) {
+      setResponseMessage('<h4>There was an error. Please try again.</h4>');
+    } finally {
+      setLoading(false);
+    }
+  };
+  
   return (
     <>
       {isOpen && (
@@ -75,7 +107,14 @@ const Popup = ({ isOpen, onClose }) => {
                                 </div>
      <div class="accordion-inner">
      <h5>Forgot Password</h5>
-    <form name="form1" method="post" action="https://admin.mavininfotech.com/emplogin/mailpassword.php">
+                {/* Response Message */}
+            {responseMessage && (
+              <div style={{ marginTop: '10px', color: 'green' }}>
+                {responseMessage}
+              </div>
+            )}
+
+    <form onSubmit={handleForgotPassword}>
                 	<table width="100%"  cellspacing="0" cellpadding="0" align="center">
 
                       <tbody>
