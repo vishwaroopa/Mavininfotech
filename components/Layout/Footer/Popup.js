@@ -111,9 +111,10 @@ const Popup = ({ isOpen, onClose }) => {
      <h5>Forgot Password</h5>
                 {/* Response Message */}
             {responseMessage && (
-              <div style={{ marginTop: '10px', color: 'green' }}>
-                {responseMessage}
-              </div>
+               <div
+        className="response-message"
+        dangerouslySetInnerHTML={{ __html: responseMessage }}
+      />
             )}
 
     <form onSubmit={handleForgotPassword}>
