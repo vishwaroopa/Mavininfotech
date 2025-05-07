@@ -208,6 +208,13 @@ Footer Area CSS
 }
 
 @media only screen and (max-width: 767px) {
+  .popup-content {
+    height: 83%;
+    overflow: auto;
+  }
+  .accordion-inner {
+    margin-top: 40px;
+  }
   .single-footer-widget.ps-5 {
     padding-left: 0 !important;
   }
