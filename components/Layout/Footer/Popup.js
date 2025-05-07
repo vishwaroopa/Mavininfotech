@@ -89,7 +89,7 @@ const Popup = ({ isOpen, onClose }) => {
             <tr><td><input type="hidden" name="text" value="" /></td></tr>
                     <tr>
                 <td colspan="2">
-  <input name="button" type="submit" class="btn default-btn" id="button" value="Email my Password">
+  <input name="button" type="submit" class="btn default-btn" id="button" value="Email my Password" />
 
                    </td>
             </tr>
