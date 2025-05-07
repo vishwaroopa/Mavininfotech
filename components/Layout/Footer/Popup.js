@@ -123,7 +123,17 @@ const Popup = ({ isOpen, onClose }) => {
     <tr> 
             
                         <td class="content"> 
-  <input type="text" class="form-control" name="formemail" required id="txtToMail" placeholder="Email Address: "  />
+              <input
+                        type="email"
+                        className="form-control"
+                        name="formemail"
+                        required
+                        id="txtToMail"
+                        placeholder="Email Address"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                      />
+                          
             </td>
             
                       </tr>
