@@ -104,8 +104,8 @@ const Popup = ({ isOpen, onClose }) => {
             
             <tr>
                 <td colspan="2">
-                    <input name="button" type="submit" class="btn default-btn" id="button" value={loading ? "Sending..." : "Email my Password"}
-  disabled={loading}/>
+  <input name="button" type="submit" class="btn default-btn" id="button" value="Submit" onclick="javascript: return validate();" />
+                    
                  </td>
             </tr>
             <tr>
@@ -143,7 +143,9 @@ const Popup = ({ isOpen, onClose }) => {
             <tr style={{ height: '50px' }}><td><input type="hidden" name="text" value="" /></td></tr>
                     <tr>
                 <td colspan="2">
-  <input name="button" type="submit" class="btn default-btn" id="button" value="Email my Password" />
+                          <input name="button" type="submit" class="btn default-btn" id="button" value={loading ? "Sending..." : "Email my Password"}
+  disabled={loading}/>
+  
 
                    </td>
             </tr>
