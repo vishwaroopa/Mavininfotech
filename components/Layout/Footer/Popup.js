@@ -46,6 +46,13 @@ const Popup = ({ isOpen, onClose }) => {
             <div> 
 <a href="javascript:void(0)" class="close_login_box">
 <span onClick={onClose} class="closebtn">x</span> </a>
+    {/* Response Message */}
+            {responseMessage && (
+               <div
+        className="response-message"
+        dangerouslySetInnerHTML={{ __html: responseMessage }}
+      />
+            )}
 <div class="accordion-inner" id="login_inner">
                                         <form action="https://email.secureserver.net/login.php" method="post" name="login_form" id="login_form">
                                         <h5>Webmail Login</h5>
@@ -97,7 +104,8 @@ const Popup = ({ isOpen, onClose }) => {
             
             <tr>
                 <td colspan="2">
-                    <input name="button" type="submit" class="btn default-btn" id="button" value="Submit" onclick="javascript: return validate();" />
+                    <input name="button" type="submit" class="btn default-btn" id="button" value={loading ? "Sending..." : "Email my Password"}
+  disabled={loading}/>
                  </td>
             </tr>
             <tr>
@@ -109,13 +117,7 @@ const Popup = ({ isOpen, onClose }) => {
                                 </div>
      <div class="accordion-inner">
      <h5>Forgot Password</h5>
-                {/* Response Message */}
-            {responseMessage && (
-               <div
-        className="response-message"
-        dangerouslySetInnerHTML={{ __html: responseMessage }}
-      />
-            )}
+                
 
     <form onSubmit={handleForgotPassword}>
                 	<table width="100%"  cellspacing="0" cellpadding="0" align="center">
