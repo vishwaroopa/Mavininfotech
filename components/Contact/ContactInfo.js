@@ -14,7 +14,7 @@ const ContactInfo = () => {
             <div className="col-lg-3 col-md-6">
               <div className="contact-information-card">
                 <h3>India Office and Development Center:</h3>
-                <p><i className="ri-map-pin-line"></i> Block # 304 & 305, Bhanu Arcade, Opp. Hi-Tech theater, Madhapur, Hyderabad-500081, Telangana, India.</p>
+                <p><i className="ri-map-pin-line"></i>C/O: WeWork RMZ Spire, Madhapur, RMZ Spire, C9MM+5QX, Silpa Gram Craft Village, HITEC City, Hyderabad, Hyderabad, TS 500081</p>
                 <p><i className="ri-mail-line"></i><a href="mailto:info@mavininfotech.com">info@mavininfotech.com</a><br/>D-U-N-S # 828400320</p>
               </div>
             </div>
