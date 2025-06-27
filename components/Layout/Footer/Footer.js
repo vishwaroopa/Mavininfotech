@@ -138,7 +138,7 @@ const Footer = () => {
                 <ul className="footer-information">
                   <li>
                     <i className="ri-map-pin-line"></i>
-                    C/O: WeWork RMZ Spire, Madhapur, RMZ Spire, C9MM+5QX, Silpa Gram Craft Village, HITEC City, Hyderabad, Hyderabad, TS 500081
+                    WeWork RMZ Spire, Madhapur, RMZ Spire, C9MM+5QX, Silpa Gram Craft Village, HITEC City, Hyderabad, Hyderabad, TS 500081
                   </li>
                   <li>
                     <i className="ri-phone-fill"></i>
